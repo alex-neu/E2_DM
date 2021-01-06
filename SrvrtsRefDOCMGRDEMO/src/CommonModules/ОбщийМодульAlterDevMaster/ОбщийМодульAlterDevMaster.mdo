@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f865439e-eb7d-4bbc-aac5-bca9753ac64c">
+  <name>ОбщийМодульAlterDevMaster</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общий модуль alter dev master</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>
