@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65500d1c-27b4-4955-bb03-f03cb56da11b">
+  <name>РаботаСЧасовымиПоясамиВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа с часовыми поясами вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

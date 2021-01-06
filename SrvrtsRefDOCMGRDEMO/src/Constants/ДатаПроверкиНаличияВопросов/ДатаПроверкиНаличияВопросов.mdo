@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="793c147f-0223-47fa-9963-3d1d9470ad54">
+  <producedTypes>
+    <managerType typeId="16946817-d7d7-453c-b643-63d4e9b2a7df" valueTypeId="66815d3d-7de4-4bb8-ab38-4317e66589c9"/>
+    <valueManagerType typeId="0ad8cdf0-0217-4f36-8337-e0253f8ebc73" valueTypeId="929eed76-02cf-4f0b-882a-6714c2831785"/>
+    <valueKeyType typeId="0ec7ba85-f540-51ea-b327-163de863ca6a" valueTypeId="5f0606a8-0b00-52bb-a21c-4615549b47fe"/>
+  </producedTypes>
+  <name>ДатаПроверкиНаличияВопросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательная классификация обращений с</value>
+  </synonym>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Обязательное заполнение вопросов для новых обращений по «Типовому общероссийскому тематическому классификатору обращений граждан».</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

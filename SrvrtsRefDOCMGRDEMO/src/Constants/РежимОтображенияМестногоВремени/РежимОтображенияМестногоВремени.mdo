@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="236e5ee3-7692-4650-a29a-965bac299f43">
+  <producedTypes>
+    <managerType typeId="a613fae3-5443-470f-a1ac-5899d83cbd67" valueTypeId="3d1473fb-d899-42ea-89be-3a057e281ef6"/>
+    <valueManagerType typeId="15261b57-eca7-49bd-a1a7-11ad976a0f83" valueTypeId="1d00adad-504d-41ad-af5e-ecfe99e81fc4"/>
+    <valueKeyType typeId="03de681a-7c73-4ea6-8cd3-82c1625c2833" valueTypeId="046091af-d604-418c-ae99-ce43768e049c"/>
+  </producedTypes>
+  <name>РежимОтображенияМестногоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режим отображения местного времени</value>
+  </synonym>
+  <type>
+    <types>EnumRef.РежимыОтображенияМестногоВремени</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

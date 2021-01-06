@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11c0129c-18e0-48df-ac51-f39f2c47edbb">
+  <name>РегламентированныйУчетОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный учет обращений</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption.РегламентированныйУчетОбращений</content>
+  <content>Constant.РегламентированныйУчетОбращений</content>
+  <content>CommonForm.ПомощникВыбораВопроса</content>
+  <content>CommonTemplate.КлассификаторОбращенийГраждан_2017</content>
+  <content>Constant.ДатаРедакцииКлассификатораОбращенийГраждан</content>
+  <content>Constant.АктуализироватьКлассификаторОбращенийГраждан</content>
+  <content>Catalog.ВопросыОбращений</content>
+  <content>Catalog.РазделыОбращений</content>
+  <content>Catalog.ТематикиОбращений</content>
+  <content>Catalog.ТемыОбращений</content>
+  <content>Enum.РезультатыРассмотренияОбращений</content>
+  <content>Enum.СпособыВыборкиОбращений</content>
+  <content>Enum.СпособыВыгрузкиОбращений</content>
+  <content>Report.РегламентированныйОтчетПоРезультатамРассмотренияОбращений</content>
+  <content>DataProcessor.ВыгрузкаВССТУ</content>
+  <content>DataProcessor.ЗагрузкаКлассификатораОбращенийГраждан</content>
+  <content>Constant.ДатаПроверкиНаличияВопросов</content>
+  <content>CommonModule.ПодборИзКлассификатораОбращенийГражданВызовСервера</content>
+  <content>CommonModule.ПодборИзКлассификатораОбращенийГражданКлиент</content>
+  <content>CommonModule.ПодборИзКлассификатораОбращенийГражданСервер</content>
+  <content>CommonModule.РаботаСОбращениямиВызовСервера</content>
+  <content>CommonModule.РаботаСОбращениямиКлиент</content>
+  <content>FunctionalOption.ВестиУчетОбращенийГраждан</content>
+  <content>CommonTemplate.КлассификаторОбращенийГражданУправленияПрезидента_2017</content>
+  <content>Document.ВыгрузкаВССТУ</content>
+  <content>Enum.ВидыОбращенийГраждан</content>
+  <parentSubsystem>Subsystem.ДокументыИФайлы</parentSubsystem>
+</mdclass:Subsystem>

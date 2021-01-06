@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c63104c-4064-4c9b-a7d9-6801573f9baf">
+  <producedTypes>
+    <selectionType typeId="7f09e128-8ae9-4097-85ef-208be7883a96" valueTypeId="3b28625e-aca6-45a9-b624-5e39107b163e"/>
+    <listType typeId="3d6b4901-7a69-4466-b7db-709d653cf5ca" valueTypeId="ab9ccf26-7281-4c3b-8567-3504ce43e555"/>
+    <managerType typeId="02596d43-4ef5-4399-a03e-96a2a6a67de7" valueTypeId="e2d40c95-2f89-4106-b586-ac228aa51df6"/>
+    <recordSetType typeId="a2b1c14c-832e-4852-9a0a-49ac0aed49fb" valueTypeId="33464779-cc13-489b-8441-6fade01ab219"/>
+    <recordKeyType typeId="76e25d9b-f2a7-40bb-bb84-e632a1e0b5dd" valueTypeId="d15ac492-7d2c-4438-873f-55daf7eada40"/>
+    <recordType typeId="33b24fcf-6c48-4483-9cd2-10fe42c6e47a" valueTypeId="f3584b10-9a18-4d4b-b610-ccd89e15d44b"/>
+    <recordManagerType typeId="6bcd9f45-e19f-4946-bdbd-444302fb5d89" valueTypeId="a86d1260-3feb-46b1-ad84-6cb6c7f412ca"/>
+  </producedTypes>
+  <name>НастройкиСинхронизацииGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки синхронизации Google</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8c9fa5ef-0efc-4d36-ac96-5b8f5a48ac2c">
+    <name>ТокенДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f1907f72-7378-47ec-8cb9-866066143237">
+    <name>ТипТокенаДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип токена доступа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f0d01d08-ead5-4f40-ba43-7523dd29360a">
+    <name>ТокенОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен обновления</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="5cbd869e-bfb3-4034-b220-a526b96a6cce">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

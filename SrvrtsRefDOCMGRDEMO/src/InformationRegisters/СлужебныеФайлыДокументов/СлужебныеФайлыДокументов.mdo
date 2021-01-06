@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06167b72-d91f-4d9f-8e71-ada862dbc726">
+  <producedTypes>
+    <selectionType typeId="6b87345a-5287-4a2b-8822-fcc77f448375" valueTypeId="9cdf5dfb-eeed-4ac2-afbf-c5fc75da6d7d"/>
+    <listType typeId="c067d111-b7f6-453e-8068-679d4b122d1f" valueTypeId="83009e63-1c77-4757-9f99-00be1045baad"/>
+    <managerType typeId="2bd48adc-b50c-46d0-ab84-a76f81ec771d" valueTypeId="5f66ef26-f1d8-46c9-9daa-ff5aafd01dcf"/>
+    <recordSetType typeId="66ad5a51-0505-4340-a558-f16f61b204fc" valueTypeId="340caef6-7245-4a00-8dba-e657c64895c3"/>
+    <recordKeyType typeId="a5be7339-856f-41c6-859a-371c4651c48e" valueTypeId="5cc8fd80-2aa9-4b31-809f-9d327e37122e"/>
+    <recordType typeId="6334c9b8-4886-446d-b139-0c165b074cd2" valueTypeId="151424f1-eb5b-4e6a-a537-04c41a1eb0aa"/>
+    <recordManagerType typeId="45dd306a-74cd-4cd8-ae5b-54984f34510e" valueTypeId="472f332a-31f4-4d16-a2eb-22a6187cf96b"/>
+  </producedTypes>
+  <name>СлужебныеФайлыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные файлы документов</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="16dd7a84-82a9-4110-b1d1-aa23d6992fee">
+    <name>Отношение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ОтношенияСлужебныхФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8f9fe8ea-6034-43d0-b3ac-7c4e8dbd0f22">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВходящиеДокументы</types>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+      <types>CatalogRef.ИсходящиеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="91e049f6-8e2c-421b-9684-401f094a8b63">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+        <fixed>true</fixed>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="62a592ad-0522-4407-85e9-585b09d4edb2">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <comment>Служебный файл - HTML</comment>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

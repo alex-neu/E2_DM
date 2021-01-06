@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29f250f8-9ef2-42c8-9916-a986d69aee9d">
+  <name>MobileApp</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение</value>
+  </synonym>
+  <rootURL>MobileApp</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="73037c8f-ab3a-45e3-8507-c86e5cfa516b">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен</value>
+    </synonym>
+    <template>/Exchange</template>
+    <methods uuid="b3eaa030-31f2-4670-83ca-93360116544f">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>ExchangePUT</handler>
+    </methods>
+    <methods uuid="d777b1ae-5cc7-4825-9cd0-28642939119b">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>ExchangeGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="a028362b-a151-40a5-ac5e-82322f83cbe5">
+    <name>GetData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get data</value>
+    </synonym>
+    <template>/GetData</template>
+    <methods uuid="c6c26a10-6e6c-4349-bf2d-3aa18ccbce41">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>GetDataGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="cc5c7f2f-238e-4e8f-817d-5c2107d14017">
+    <name>Ping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ping</value>
+    </synonym>
+    <template>/Ping</template>
+    <methods uuid="121a35c2-dc30-45b0-80f7-79b77d30134a">
+      <name>Ping</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ping</value>
+      </synonym>
+      <handler>PingPing</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5a962117-ef22-4932-9c6e-db2dbee3950e">
+    <name>PutData</name>
+    <synonym>
+      <key>ru</key>
+      <value>Put data</value>
+    </synonym>
+    <template>/PutData</template>
+    <methods uuid="23b34ace-1b10-45b1-85d9-54673553347d">
+      <name>PUT</name>
+      <synonym>
+        <key>ru</key>
+        <value>PUT</value>
+      </synonym>
+      <httpMethod>PUT</httpMethod>
+      <handler>PutDataPUT</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbb93e7a-d6d4-4e3a-b8bd-2955acc3cab0">
+  <producedTypes>
+    <refType typeId="2915cb35-dc55-4b9b-a565-9ef4cb024d51" valueTypeId="dd73e8fb-bc1e-476d-98c9-722c5ad14f0f"/>
+    <listType typeId="515222ce-3def-42f5-a260-7637e40e7b23" valueTypeId="f342d907-b87e-488b-b6a3-30e5e9d670c0"/>
+    <managerType typeId="e1b79122-a596-4016-9b21-f9caaaee00fd" valueTypeId="8268aa57-7974-4ccd-86b0-e8047c0b9f61"/>
+  </producedTypes>
+  <name>ЗаданияОчередиОбновленияОбсуждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задания очереди обновления обсуждений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f0251a92-19b8-4df5-bc59-d641f2a098ff">
+    <name>ВыполнитьОбработчикОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обработчик обновления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7786c79-2307-46fc-b436-0532b0310e50">
+    <name>ДобавитьНедостающихУчастниковВАвтоОбсуждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить недостающих участников во все автообновляемые обсуждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52e9f1a0-8fb0-4f44-954c-21a8665a9ae9">
+    <name>ОбработатьПодключениеОбсуждений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработать подключение обсуждений</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

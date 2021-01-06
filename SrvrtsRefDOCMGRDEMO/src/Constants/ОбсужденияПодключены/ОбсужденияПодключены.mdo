@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab3b2ecc-a1f9-4874-a4dd-14bbfa5be15d">
+  <producedTypes>
+    <managerType typeId="951721dc-ea79-496a-9ee4-bdb5e5862606" valueTypeId="d6e4c5bd-d79e-4e68-bb7e-06c9bd631d33"/>
+    <valueManagerType typeId="03286bc1-15be-4ee7-b245-b92be4cdf9e3" valueTypeId="03690202-6050-4926-8914-30d4692902d4"/>
+    <valueKeyType typeId="f3e11006-3856-4fb8-9829-9031b0aa3d1d" valueTypeId="01f8f573-99ac-499c-b310-ebf04f7bcdb9"/>
+  </producedTypes>
+  <name>ОбсужденияПодключены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения подключены</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

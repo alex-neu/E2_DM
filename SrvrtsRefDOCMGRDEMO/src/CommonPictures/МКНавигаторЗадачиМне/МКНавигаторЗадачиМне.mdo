@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dcce10d-a3ce-4e80-b338-71a3b758c309">
+  <name>МКНавигаторЗадачиМне</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильный Клиент Навигатор задачи мне</value>
+  </synonym>
+</mdclass:CommonPicture>

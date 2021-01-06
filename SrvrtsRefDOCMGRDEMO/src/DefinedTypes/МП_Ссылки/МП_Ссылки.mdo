@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fe3ac1a-bcf8-4767-9168-1e104143d17f">
+  <producedTypes>
+    <containerType typeId="e5d173cd-3e52-45ca-8a00-7decaceef4ad" valueTypeId="8ec85fde-51fd-4675-b29d-ecfdb8b3bb77"/>
+  </producedTypes>
+  <name>МП_Ссылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки для мобильного приложения</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контроль</types>
+    <types>DocumentRef.ЕженедельныйОтчет</types>
+    <types>BusinessProcessRef.Исполнение</types>
+    <types>CatalogRef.ЛичныеАдресаты</types>
+    <types>CatalogRef.ВидыРабот</types>
+    <types>DocumentRef.ВходящееПисьмо</types>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>DocumentRef.ИсходящееПисьмо</types>
+    <types>CatalogRef.ШаблоныТекстов</types>
+    <types>CatalogRef.ЗаписиРабочегоКалендаря</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ПапкиПисем</types>
+    <types>DocumentRef.Отсутствие</types>
+    <types>DocumentRef.ЕжедневныйОтчет</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>DocumentRef.СамочувствиеСотрудника</types>
+    <types>EnumRef.ОбменСМобильнымиТипыНастроекПользователей</types>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogRef.Мероприятия</types>
+    <types>CatalogRef.АдресатыПочтовыхСообщений</types>
+    <types>CatalogRef.ВидыОтсутствий</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3377c92-8605-4af1-9bb2-007898e9492e">
+  <producedTypes>
+    <objectType typeId="c9569fdc-0659-49c8-bb06-012c0e2e3091" valueTypeId="84109258-7898-44f3-804f-f3512b9c4e18"/>
+    <managerType typeId="0a829e35-0a58-434c-8b6a-39f1ac327679" valueTypeId="5cef10f3-24fd-4c48-b7ad-6083cdb2db15"/>
+  </producedTypes>
+  <name>ОбновлениеКлассификатораОбращенийГраждан</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление классификатора обращений граждан</value>
+  </synonym>
+  <defaultForm>DataProcessor.ОбновлениеКлассификатораОбращенийГраждан.Form.Форма</defaultForm>
+  <forms uuid="2120f62c-9cd0-4543-bfda-6e0611d88a92">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

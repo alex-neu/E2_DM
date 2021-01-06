@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="539d7230-d0a4-405c-9186-77df5aa828fe">
+  <name>МП_МобильныйСканер48</name>
+  <synonym>
+    <key>ru</key>
+    <value>мобильный сканер48</value>
+  </synonym>
+</mdclass:CommonPicture>

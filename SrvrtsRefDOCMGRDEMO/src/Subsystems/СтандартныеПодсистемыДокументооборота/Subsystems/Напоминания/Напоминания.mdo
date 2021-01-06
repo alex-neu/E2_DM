@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c16ee91-9f60-42bf-8ea3-404b92b1fdd6">
+  <name>Напоминания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.НапоминанияПользователяДокументооборот</content>
+  <content>CommonModule.НапоминанияПользователяДокументооборотВызовСервера</content>
+  <content>CommonModule.НапоминанияПользователяДокументооборотКлиент</content>
+  <content>CommonModule.НапоминанияПользователяДокументооборотКлиентСервер</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

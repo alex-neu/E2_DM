@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca938b06-b575-41bc-891e-ce2e5c6b64ed">
+  <name>ПомощникОтправить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник отправить</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

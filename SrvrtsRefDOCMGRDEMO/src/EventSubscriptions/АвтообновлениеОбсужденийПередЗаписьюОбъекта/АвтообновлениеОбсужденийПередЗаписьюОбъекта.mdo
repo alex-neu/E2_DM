@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53c9715d-ef7c-448a-b934-f951906489c3">
+  <name>АвтообновлениеОбсужденийПередЗаписьюОбъекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автообновление обсуждений перед записью объекта</value>
+  </synonym>
+  <source>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.Мероприятия</types>
+    <types>CatalogObject.ПолныеРоли</types>
+    <types>CatalogObject.СтруктураПредприятия</types>
+    <types>CatalogObject.РабочиеГруппы</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбсужденияДокументооборот.АвтообновлениеОбсужденийПередЗаписьюОбъекта</handler>
+</mdclass:EventSubscription>

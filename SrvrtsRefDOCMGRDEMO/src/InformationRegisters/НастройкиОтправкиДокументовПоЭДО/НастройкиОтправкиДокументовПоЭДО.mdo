@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad9f5a4e-9c5b-4aff-977c-d013756b8d4b">
+  <producedTypes>
+    <selectionType typeId="ccd47a50-ac62-45d5-8383-7a8f65c8d8a1" valueTypeId="d972672a-93a2-4f15-aae7-592c226cfa31"/>
+    <listType typeId="bfa41d4d-729d-49bf-975a-780bade69cd7" valueTypeId="1d953208-b460-4db6-814f-d202d1699116"/>
+    <managerType typeId="4487e89e-f8a4-4a49-86b9-fe6fd33ea048" valueTypeId="f8ab1ed2-8b7a-4b2c-aaf8-2b3a5cbba0dc"/>
+    <recordSetType typeId="aa40274c-b85d-42cc-bd23-b9112685f8cb" valueTypeId="a110502b-b362-4285-a0bb-e1d8f45111d3"/>
+    <recordKeyType typeId="c6b5fab1-8d7f-4eee-92c9-d5a1611ca061" valueTypeId="d618c856-ea7d-4526-9506-ba86d5e2bbb2"/>
+    <recordType typeId="91f15ac3-37ee-43e6-8790-34572ed735c8" valueTypeId="3dbe7c6b-0bbb-481c-8ac5-8be1bfb8e8dc"/>
+    <recordManagerType typeId="fc56b774-0737-4483-af9c-617e0d512158" valueTypeId="48a613ee-6cf5-4c62-9e33-db532ac74780"/>
+  </producedTypes>
+  <name>НастройкиОтправкиДокументовПоЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки отправки документов по ЭДО</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8afefb12-4c4a-4fcc-8ffc-2e4967c51600">
+    <name>Отправлять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлять</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d2d60fe5-3838-4f65-ba25-dafbbb35f984">
+    <name>ВидЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ЭД</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d992c3f-1f0a-44bd-a004-9ed78698517b">
+    <name>ТипЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ЭД</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a9e6440-4a91-450e-b4b9-d0eaf9d506bf">
+    <name>ТребуетсяОтветнаяПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется ответная подпись</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ожидать ответную подпись получателя</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="037140f9-92b7-405e-b9b2-b74d37f0841d">
+    <name>ТребуетсяИзвещениеОПолучении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется извещение о получении</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ожидать извещение о получении электронного документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="78bca402-6c08-472d-af7f-5e0e9312299e">
+    <name>Отправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправитель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Организация</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fcd84d92-8126-4d3f-9bb5-70eddc3ee3dc">
+    <name>Получатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получатель</value>
+    </synonym>
+    <type>
+      <types>DefinedType.УчастникЭДО</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1f60aac9-18c1-4aac-92aa-0de73ca5b1b7">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВнутреннихДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cc680f6-9e6c-470c-b0e5-760d96486bbc">
+  <producedTypes>
+    <managerType typeId="a6cbf6ba-0a86-403f-9ffc-c54cc9bbfce1" valueTypeId="9baff30d-3861-4afe-bed7-7f2cdaddebd3"/>
+    <valueManagerType typeId="96a41d7e-2fe0-45d0-a45e-e7ce9f16ae93" valueTypeId="d7dabca0-2f84-4b22-aea3-6d14cbf302ba"/>
+    <valueKeyType typeId="6ebe386c-f537-4706-864c-33373b2eccfd" valueTypeId="80b32376-fa44-4201-a3f9-a770e716ca95"/>
+  </producedTypes>
+  <name>OAuthАвторизацияКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>OAuth авторизация клиент</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

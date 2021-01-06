@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="72c7e7dc-f5bf-4733-b5d6-b545e0dc5ff8">
+  <producedTypes>
+    <managerType typeId="ef4ad88f-c35e-4516-b9a4-4cb1c77b874d" valueTypeId="774ec7dc-7a80-48b9-ac01-b304c36f2512"/>
+    <valueManagerType typeId="1acd55f0-f2a9-47ec-92b0-5444d1cd6d6b" valueTypeId="e5cd9c89-b6f0-4d72-a536-f95e4f212e3f"/>
+    <valueKeyType typeId="24a25e03-d66e-4ddb-b30c-c281efdf14cd" valueTypeId="3e695e1f-eea3-4d31-91db-4b0baa7cdb93"/>
+  </producedTypes>
+  <name>ПервоеСообщениеЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Первое сообщение чат-бота</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Сообщение, которое отправит чат-бот как только создастся обсуждение с пользователем.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

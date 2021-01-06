@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e9ed765-9f45-4bde-9bc4-a3346a02318e">
+  <name>АвтообновлениеОбсужденийПриЗаписиРегистра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автообновление обсуждений при записи регистра</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.СведенияОПользователяхДокументооборот</types>
+    <types>InformationRegisterRecordSet.УчастникиМероприятия</types>
+    <types>InformationRegisterRecordSet.ИсполнителиЗадач</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбсужденияДокументооборот.АвтообновлениеОбсужденийПриЗаписиРегистра</handler>
+</mdclass:EventSubscription>

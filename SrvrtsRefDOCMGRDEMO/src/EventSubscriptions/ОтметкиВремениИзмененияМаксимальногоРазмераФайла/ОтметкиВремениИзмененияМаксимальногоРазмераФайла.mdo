@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b54e6f42-c1fe-44cb-8927-dca6ca212837">
+  <name>ОтметкиВремениИзмененияМаксимальногоРазмераФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменение максимального размера вложения</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.МаксимальныйРазмерФайла</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОтметкиВремениСобытия.ОтметкиВремениИзмененияМаксимальногоРазмераФайлаПриЗаписи</handler>
+</mdclass:EventSubscription>

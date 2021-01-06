@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f042ddb-4bd5-437d-aa03-830e33de5306">
+  <producedTypes>
+    <selectionType typeId="0b2e1e28-2e65-4489-9ce3-0034a6bcbedb" valueTypeId="76f6ab0e-eca5-47ff-ad81-340cd0c2106b"/>
+    <listType typeId="9aef220c-b2d5-4296-a0cf-faf09ebe6c0e" valueTypeId="9983abcb-c389-4015-a857-cde431230428"/>
+    <managerType typeId="4dd35520-0992-49b1-884d-9e4ebb231416" valueTypeId="1ff4114b-bc78-49ad-a254-ffe41b495b10"/>
+    <recordSetType typeId="8a774691-fc74-4a08-94d3-dff3631f0313" valueTypeId="3b03f61a-7754-41ff-b4b4-43e02f246aaf"/>
+    <recordKeyType typeId="c985cd48-24fe-4908-92cc-cc1ce78307dd" valueTypeId="6b491a4f-dfd1-4c49-9668-2b8b5f5c3ca9"/>
+    <recordType typeId="bbfc9ef4-cb8e-4d6b-8159-62c9aa337689" valueTypeId="adfc7ce6-d190-4024-aa22-61ec817766ec"/>
+    <recordManagerType typeId="03699de2-021d-49ab-b063-4cb1e9c6ce4d" valueTypeId="7ec98dfa-93fe-430d-83e4-db9ae1c16e40"/>
+  </producedTypes>
+  <name>НастройкиСинхронизацииDAV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки синхронизации DAV</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Настройки синхронизации CalDAV</value>
+  </recordPresentation>
+  <resources uuid="ae89bbb7-df9d-4626-ae5d-15c8b4bd926c">
+    <name>Сервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="2459d8e0-14a6-4a1d-bed8-4584e72b838b">
+    <name>ИмяПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="1f151471-df61-4895-9d95-9344bfa5dd3c">
+    <name>КаталогКалендарей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог календарей</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="8c41d8b4-8114-4f33-a8f8-200ebe66af99">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

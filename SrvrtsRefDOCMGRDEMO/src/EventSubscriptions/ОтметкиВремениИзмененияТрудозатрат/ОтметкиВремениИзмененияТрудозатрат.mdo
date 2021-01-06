@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ca1e0ae-8dbe-466d-9d33-a68f7296fea8">
+  <name>ОтметкиВремениИзмененияТрудозатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки времени изменения трудозатрат</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ФактическиеТрудозатраты</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОтметкиВремениСобытия.ОтметкиВремениИзмененияТрудозатрат</handler>
+</mdclass:EventSubscription>

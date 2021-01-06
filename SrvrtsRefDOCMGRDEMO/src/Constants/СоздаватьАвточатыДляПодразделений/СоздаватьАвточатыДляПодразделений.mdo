@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2cd5caf-cef5-41b3-9efc-7cb043487ef4">
+  <producedTypes>
+    <managerType typeId="f7d4a0ec-6e54-43aa-b2dd-353377e74106" valueTypeId="f40e0a0d-b6de-4c51-8b1a-751d0ed1e8ad"/>
+    <valueManagerType typeId="00a69439-2de3-40c3-847e-e09dd7d12cab" valueTypeId="af83bef2-eb0f-4616-bbf3-9807d7dc0329"/>
+    <valueKeyType typeId="f133f3e6-2ed2-467f-b203-e0305ebaecf9" valueTypeId="54a13ead-bd9d-4749-b40f-0e3d2311c5ba"/>
+  </producedTypes>
+  <name>СоздаватьАвточатыДляПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавлять обсуждения для новых подразделений автоматически</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

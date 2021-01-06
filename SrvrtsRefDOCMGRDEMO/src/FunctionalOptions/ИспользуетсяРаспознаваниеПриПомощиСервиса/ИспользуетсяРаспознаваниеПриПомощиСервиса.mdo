@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf1480c1-98c5-4ab0-b089-8e2a026b7b3d">
+  <name>ИспользуетсяРаспознаваниеПриПомощиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется распознавание при помощи сервиса</value>
+  </synonym>
+  <location>Constant.ИспользуетсяРаспознаваниеПриПомощиСервиса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ФайлыНаРаспознавании.Command.ФайлыНаРаспознавании</content>
+</mdclass:FunctionalOption>

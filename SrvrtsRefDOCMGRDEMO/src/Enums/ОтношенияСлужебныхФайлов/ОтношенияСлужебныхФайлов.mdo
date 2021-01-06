@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c89b9248-c220-4717-b08d-0ec508fcb063">
+  <producedTypes>
+    <refType typeId="5ca16d06-9041-4882-a8fd-1a35112b1e58" valueTypeId="f0b7dfc5-7206-4a8a-b716-e1900a716854"/>
+    <listType typeId="0e899e7a-2aa2-48c2-b5d8-22aa4e26b41d" valueTypeId="c2afe467-e793-4ff7-8bca-9928b599e2d6"/>
+    <managerType typeId="71fdc662-e001-4aa4-aa5d-97bbdd564d7a" valueTypeId="59ac97cf-f64a-4f6c-8f6f-3186587140ad"/>
+  </producedTypes>
+  <name>ОтношенияСлужебныхФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отношения служебных файлов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f94a3da-cc56-4104-895b-36f364171bb7">
+    <name>HTMLСодержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTMLСодержание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e03e9af-3300-4836-852d-2bb254a99133">
+    <name>Картинка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d2d8f1e-a810-483a-b049-348fae7c2705">
+    <name>ФайлПункта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл пункта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39484034-f599-4af0-abc4-61e16d38ff2d">
+    <name>ФайлПередачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл передачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9dc53eb8-791a-408e-8452-2fea63b368f3">
+    <name>ОтметкаЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка ЭП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8718572d-cc3a-4956-a1f3-2e87ca1d1471">
+    <name>РегистрационныйШтамп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационный штамп</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c24f695-9497-479b-a13c-98a8ed88a99b">
+    <name>ВизуализацияЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Визуализация ЭП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

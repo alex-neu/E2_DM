@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da684b13-0399-4516-be76-18ff91acd16d">
+  <producedTypes>
+    <refType typeId="41ad36e3-a8c7-4036-b9b9-ba166997c090" valueTypeId="d4847568-2300-4e0a-b4d6-31368d05b17c"/>
+    <listType typeId="923de31a-51e5-4a49-aebf-fadfb1dd68c0" valueTypeId="e0bd1fdb-59a9-4bff-89c6-96472d82f11a"/>
+    <managerType typeId="b32b2f00-3de0-456b-bcbc-ba8777fc5c19" valueTypeId="9623d11a-d344-4bf4-942a-582a4c36ed96"/>
+  </producedTypes>
+  <name>РолиУчастниковКаналовОбсуждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли участников каналов обсуждений</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1127bb35-49dc-4fcd-a738-618d823994c0">
+    <name>Администратор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f094b3fc-e758-43ba-a3dd-7eb3c4d12ef2">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d715897d-4303-4c95-aff1-91a8d9cfd259">
+    <name>Читатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Читатель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

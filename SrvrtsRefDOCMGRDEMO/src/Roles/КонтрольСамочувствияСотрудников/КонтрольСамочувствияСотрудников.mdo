@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c01a0fc3-c571-4093-bf9a-63c7369ddbc2">
+  <name>КонтрольСамочувствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль самочувствия сотрудников</value>
+  </synonym>
+</mdclass:Role>

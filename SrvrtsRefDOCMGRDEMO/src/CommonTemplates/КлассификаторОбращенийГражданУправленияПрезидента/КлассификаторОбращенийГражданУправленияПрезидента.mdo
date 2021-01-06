@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7febc42-a7e8-4a38-9fba-c00b6567e66d">
+  <name>КлассификаторОбращенийГражданУправленияПрезидента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор обращений граждан управления президента</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4407946-85d9-4f8d-9c0f-7e4c2852275e">
+  <producedTypes>
+    <containerType typeId="1fc8d3dd-5a6c-48c3-994f-973c9cc03b6d" valueTypeId="07a29d6f-ddf7-4eea-ab35-6ccdb1001aef"/>
+  </producedTypes>
+  <name>ОтметкаВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметка времени</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>17</length>
+      <fixed>true</fixed>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

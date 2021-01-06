@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47587114-f421-4bfa-a758-4f208f0d4430">
+  <name>ВизуализацияЭПOpenOfficeВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Визуализация ЭПOpen office вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

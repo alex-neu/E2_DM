@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e9b43a3-37d5-4906-910c-1d32643d7085">
+  <name>ОбсуждениеВАвтообновляемомЧатеБезНижестоящих</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждение с участниками</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.Проекты</types>
+    <types>CatalogRef.СтруктураПредприятия</types>
+    <types>CatalogRef.РабочиеГруппы</types>
+    <types>CatalogRef.Мероприятия</types>
+  </commandParameterType>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к обсуждению с участниками</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

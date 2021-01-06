@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f08ef098-4c61-4757-96c0-24225301c22c">
+  <name>ЧатБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат-бот</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Constant.ЧатБот</content>
+  <content>CommonModule.РаботаСЧатБотом</content>
+  <content>CommonModule.РаботаСЧатБотомПовтИсп</content>
+  <content>Constant.ПервоеСообщениеЧатБота</content>
+  <content>Role.АдминистраторЧатБота</content>
+  <content>CommonModule.РаботаСЧатБотомВызовСервера</content>
+  <content>CommonModule.РаботаСЧатБотомГлобальный</content>
+  <content>CommonModule.РаботаСЧатБотомКлиент</content>
+  <content>CommonModule.РаботаСЧатБотомКлиентСервер</content>
+  <content>FunctionalOption.ИспользоватьЧатБота</content>
+  <content>CommonPicture.Чатбот</content>
+  <content>Constant.ИспользоватьЧатБота</content>
+  <content>Catalog.ВычисляемыеПараметрыЧатБота</content>
+  <content>Catalog.СостоянияЧатБота</content>
+  <content>Enum.ТипыСостоянийЧатБота</content>
+  <content>InformationRegister.ИсторияБеседСЧатБотом</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

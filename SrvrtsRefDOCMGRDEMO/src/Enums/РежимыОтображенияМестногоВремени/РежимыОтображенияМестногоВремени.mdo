@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b52de48c-69e4-416e-9114-a83b81ef0920">
+  <producedTypes>
+    <refType typeId="b47f97ad-e468-4283-aaa1-6d06b4519757" valueTypeId="57b5064c-dcd2-4a83-ba33-0fd35f988d9b"/>
+    <listType typeId="d7ba2465-df4d-4505-a217-b71e7da98799" valueTypeId="d01835f0-f797-4998-9dd4-1d1f7cf2027b"/>
+    <managerType typeId="27f3a3c6-974a-4ffd-935c-b83d1070d6d2" valueTypeId="dd2f96b6-0c6c-436a-bfa8-ac2c3f788e5a"/>
+  </producedTypes>
+  <name>РежимыОтображенияМестногоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы отображения местного времени</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08b4cba6-55e8-4192-8b8d-7224b1a39fda">
+    <name>ВремяСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время сеанса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a0512a9-0185-48a6-b7c0-4b53531dc224">
+    <name>МестноеВремяБезЧасовогоПояса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местное время без часового пояса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24370885-455f-4681-981b-af7e2958578f">
+    <name>МестноеВремяСЧасовымПоясом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местное время с часовым поясом</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

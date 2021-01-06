@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522ff3a6-8685-41f5-a963-5bf39cb00ead">
+  <name>ИспользоватьЕжедневныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать ежедневные отчеты</value>
+  </synonym>
+  <location>Constant.ИспользоватьЕжедневныеОтчеты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЕжедневныйОтчет</content>
+  <content>Document.ЕженедельныйОтчет.TabularSection.ДниНедели.Attribute.ЕжедневныйОтчет</content>
+</mdclass:FunctionalOption>

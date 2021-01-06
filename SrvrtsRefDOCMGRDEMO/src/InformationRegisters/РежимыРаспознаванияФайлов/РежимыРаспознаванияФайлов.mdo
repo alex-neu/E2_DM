@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b96b8633-a53a-4e87-abde-2df59b078ad8">
+  <producedTypes>
+    <selectionType typeId="b711eab2-c226-4fc3-9dc1-e3066ec387e0" valueTypeId="0dbbc55a-3db0-4526-bf20-428ed5e885d6"/>
+    <listType typeId="22488eca-4335-42cd-b045-ad582bd37460" valueTypeId="fa3b716c-b59c-407e-b337-81b8919319f2"/>
+    <managerType typeId="172243a0-6339-4f98-bbb1-e885386543b1" valueTypeId="8e223579-3f23-4784-a828-a213c799a626"/>
+    <recordSetType typeId="b2d3ff94-fa79-4a0a-85d6-988cedf40085" valueTypeId="8c17bb3c-bb01-451d-b812-cadcd1f9a734"/>
+    <recordKeyType typeId="f0ce4699-96ed-4452-a184-a8fa60ad075c" valueTypeId="e4c424fa-ef9d-461d-9cab-67359663c6e5"/>
+    <recordType typeId="d34138c1-5ae4-45e8-8fb3-d558ac5b74cc" valueTypeId="a6ce268e-247d-4249-a6c9-a6d8cc94bccf"/>
+    <recordManagerType typeId="8a5b1128-f8cb-43ff-8ec4-b30d541f358c" valueTypeId="f1c9f7ce-6528-4159-92f8-7000afe522ac"/>
+  </producedTypes>
+  <name>РежимыРаспознаванияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Режимы распознавания файлов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5102f525-5c60-47a0-bb35-9397473537ab">
+    <name>Режим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыРежимовРаспознаванияФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="b7ad3e02-56de-46a9-a1da-f7592cd1f685">
+    <name>Владелец</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

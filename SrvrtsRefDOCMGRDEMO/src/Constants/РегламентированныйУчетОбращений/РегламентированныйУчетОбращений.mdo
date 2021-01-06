@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="281796fc-d8a6-4770-8cae-adf9349361d3">
+  <producedTypes>
+    <managerType typeId="2cac6261-229f-4193-80b1-c44164a6a722" valueTypeId="08c031ae-aee9-4e5f-a304-9c79fa777d37"/>
+    <valueManagerType typeId="559c454e-b59d-4378-9cf0-c8a3ef3408c1" valueTypeId="51a0a280-1086-41eb-b82c-bd24bad8b37f"/>
+    <valueKeyType typeId="08fdf842-303a-554e-96a9-896ad5dd5cb1" valueTypeId="3d7e2188-77b0-5b3d-a954-b0c088b651f7"/>
+  </producedTypes>
+  <name>РегламентированныйУчетОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный учет обращений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Регламентированный учет обращений граждан и организаций для передачи на портал ССТУ.РФ</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17fd4c24-c2fa-4f02-b4f0-194a5d443099">
+  <producedTypes>
+    <selectionType typeId="ad7c8551-55cd-48f1-a628-19f872f13175" valueTypeId="46bee197-8779-4655-9d17-34166ece3844"/>
+    <listType typeId="bef85b45-65e0-471d-b3e3-eced1ec7e606" valueTypeId="a427f562-a391-444c-8ce2-f3ace58f59aa"/>
+    <managerType typeId="7aa6eda4-c73d-45df-b03c-65fb79e0ac6c" valueTypeId="610eb5cb-1f48-48cd-a502-1f00ce2c0221"/>
+    <recordSetType typeId="21803483-6f03-40f6-87e6-8589ed788b67" valueTypeId="b62fb69c-8236-44ea-93c5-f81bbf40fac0"/>
+    <recordKeyType typeId="e8635bc9-791c-4311-af5b-a295e9f9034c" valueTypeId="945ac907-a939-427b-b45d-cff41e9993d1"/>
+    <recordType typeId="3a3eeac7-5bde-44cf-8188-744b5a712f64" valueTypeId="7c0a3ebf-ad07-464e-8664-82f340abe3d4"/>
+    <recordManagerType typeId="caa2688a-c855-452e-8a8e-7022bd7bd8bf" valueTypeId="a60e585b-972d-4bd3-85e6-1f1ea605cd62"/>
+  </producedTypes>
+  <name>ФайлыНаРаспознавании</name>
+  <synonym>
+    <key>ru</key>
+    <value>Файлы на распознавании</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ФайлыНаРаспознавании.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ФайлыНаРаспознавании.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="553c1049-33be-4408-b33d-a30abe2c3125">
+    <name>ДатаПередачиНаРаспознавание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата передачи на распознавание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="cb6e10a4-d3b7-495a-a08c-04c3832bea8f">
+    <name>ДатаПоследнейПроверкиРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата последней проверки результата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="1e07ca16-3c3b-433d-8ff5-9c50a6db1568">
+    <name>ИдентификаторЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор задания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>39</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="fec1b0c3-54e3-4c32-ab50-ed8c264e40e0">
+    <name>КоличествоПопыток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="0475c1f5-8b0f-44c3-ac3a-05ab16614ecf">
+    <name>ОписаниеОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="cea00f63-10f4-49ea-a5b1-a68d026e6943">
+    <name>Файл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ПрисоединенныйФайл</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e753e262-f52b-4b0c-87e2-4bebcccb5c2f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3bc3a5e0-8b57-499c-a89c-ac705fb036f7">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="336f46e6-bc6b-4c40-8cbe-1d6194ae6158">
+    <name>ФайлыНаРаспознавании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы на распознавании</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d29cc3bc-c912-4667-b48f-ff53386ca4d2">
+  <name>ПомощникОтправить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Помощник отправить</value>
+  </synonym>
+  <content>CommonCommand.ОтправитьОбъекты</content>
+  <content>CommonForm.ПомощникОтправить</content>
+  <content>CommonModule.ПомощникОтправить</content>
+  <content>CommonModule.ПомощникОтправитьПереопределяемый</content>
+  <content>56453a27-55d5-42af-b045-f583b3402492</content>
+  <content>CommonModule.ПомощникОтправитьКлиент</content>
+  <content>CommonModule.ПомощникОтправитьКлиентСервер</content>
+  <content>cbb5ad00-d7b1-406d-8dc6-a9fa9f73c3e2</content>
+  <content>CommonModule.ПомощникОтправитьКлиентСерверКОРП</content>
+  <content>CommonModule.ПомощникОтправитьКОРП</content>
+  <content>CommonModule.ПомощникОтправитьКлиентКОРП</content>
+  <content>CommonModule.ПомощникОтправитьКлиентПереопределяемый</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

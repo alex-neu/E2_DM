@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0894a0b7-0c3b-4bd0-9443-93a655ae84a7">
+  <producedTypes>
+    <objectType typeId="04ca7870-8494-48e4-9023-ab7e8c833628" valueTypeId="6ea4d78a-fa24-4dc3-bd75-4f9ea1381d1f"/>
+    <managerType typeId="3ba9183b-34db-4db1-8655-70a965a5924f" valueTypeId="4e1ed418-2998-47c5-b2f6-567eaed313cc"/>
+  </producedTypes>
+  <name>НастройкиМобильногоПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки мобильного приложения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НастройкиМобильногоПриложения.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="af6a2ff3-965a-4c73-985d-dafe2b50e17f">
+    <name>ВариантыЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Варианты загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c9f286e-52aa-4d1b-be8a-3e22197aab05">
+    <name>ВыборПроектовСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация проектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6fec1985-3968-4ca6-9c4c-ca8185a30142">
+    <name>ОбщиеНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b360d72b-815b-4690-ae88-18fc010b457a">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="be839371-7ba8-43ca-9a90-04afbbb48543">
+    <name>ПапкиСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синхронизация папок писем</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

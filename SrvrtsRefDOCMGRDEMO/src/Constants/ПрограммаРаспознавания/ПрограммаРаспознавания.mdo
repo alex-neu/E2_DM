@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f7dedde-a598-4a26-8b39-9569713297d7">
+  <producedTypes>
+    <managerType typeId="c7d6fd0e-f6b4-47e6-b0e6-9c125450f6c0" valueTypeId="43459028-6beb-478f-a743-b45e2495fee5"/>
+    <valueManagerType typeId="1b93a904-d875-4d23-9041-f14e1b60b873" valueTypeId="81892add-6242-462d-8080-b7fb51527365"/>
+    <valueKeyType typeId="1aa8d998-a350-51f9-b19b-74b6aa18dd0f" valueTypeId="80060dcb-931b-558e-91cd-f33b1fc56a57"/>
+  </producedTypes>
+  <name>ПрограммаРаспознавания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Программа распознавания</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПрограммыРаспознавания</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

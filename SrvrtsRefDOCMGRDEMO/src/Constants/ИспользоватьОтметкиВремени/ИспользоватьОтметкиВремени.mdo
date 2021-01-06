@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04b0fd5a-03e7-40b7-bd14-d2294cbda983">
+  <producedTypes>
+    <managerType typeId="7fd39915-3176-4d67-b690-a6c4a2f762ec" valueTypeId="f8759195-ddd8-483c-84d9-986573d81497"/>
+    <valueManagerType typeId="10bcf7d3-19e2-4f1b-8f9b-cbd5646eddb2" valueTypeId="287cd9b6-d246-46b5-b076-dd4b6a5d6c01"/>
+    <valueKeyType typeId="ebece64b-06a9-508a-b842-6931088961f1" valueTypeId="648e58c4-d72c-58fb-8eba-76de8368112d"/>
+  </producedTypes>
+  <name>ИспользоватьОтметкиВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать отметки времени</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

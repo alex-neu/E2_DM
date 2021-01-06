@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3006598d-2a81-45ce-b3ba-5b31ffa33322">
+  <producedTypes>
+    <refType typeId="1fbad6b3-044d-4291-b5f1-dcde90e43bc0" valueTypeId="225104fa-3af1-4b7b-99b8-f79ea412c0c1"/>
+    <listType typeId="de4c0503-d650-4a4d-a2ef-a462d63f8539" valueTypeId="0171db2a-0f0e-48a9-b15a-97970018340e"/>
+    <managerType typeId="0435fba7-7fbb-4955-9136-94efa729d542" valueTypeId="0ca6ae50-c649-4058-a87e-09c491857425"/>
+  </producedTypes>
+  <name>ВидыДней</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды дней</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf4dfd52-0193-4af9-b87d-33829b01c5ba">
+    <name>Рабочий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рабочий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f2d2c11-87a5-450a-9ba8-69a39168430c">
+    <name>Выходной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходной</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6367cb80-f975-453f-8da9-7dd4edc71503">
+    <name>Больничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="510749a8-9ae2-4155-b172-314fbec85064">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2ed1e46a-4e04-4f35-a016-931a5c15d5df">
+    <name>Отсутствие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

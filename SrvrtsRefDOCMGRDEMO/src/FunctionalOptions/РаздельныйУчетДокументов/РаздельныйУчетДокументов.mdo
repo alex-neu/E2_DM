@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76c6e7a0-33d9-435e-8136-63e1b7870abe">
+  <name>РаздельныйУчетДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздельный учет бумажных и электронных документов</value>
+  </synonym>
+  <location>Constant.РаздельныйУчетДокументов</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ВариантыФормДокументов</content>
+  <content>Catalog.ВидыВнутреннихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ВидыВходящихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ВидыИсходящихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ШаблоныВнутреннихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ШаблоныВходящихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ШаблоныИсходящихДокументов.Attribute.ФормаДокумента</content>
+  <content>Catalog.ВнутренниеДокументы.Attribute.ФормаДокумента</content>
+  <content>Catalog.ВходящиеДокументы.Attribute.ФормаДокумента</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.ФормаДокумента</content>
+  <content>Catalog.НоменклатураДел.Attribute.ФормаДокументов</content>
+  <content>Catalog.ВидыВнутреннихДокументов.Attribute.КонтролироватьНаличиеОригинала</content>
+  <content>Catalog.ВидыВходящихДокументов.Attribute.КонтролироватьНаличиеОригинала</content>
+  <content>InformationRegister.ОбщиеРеквизитыДокументов.Resource.ОригиналПолучен</content>
+  <content>InformationRegister.ОбщиеРеквизитыДокументов.Resource.ОригиналПолучил</content>
+  <content>InformationRegister.ОбщиеРеквизитыДокументов.Resource.ДатаПолученияОригинала</content>
+  <content>Report.КонтрольНаличияОригиналов</content>
+</mdclass:FunctionalOption>

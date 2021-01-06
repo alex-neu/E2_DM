@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаРегистрации</dataPath>
+			<field>ДатаРегистрации</field>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">ДЛФ=D</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ</v8:content>
+				</v8:item>
+			</title>
+			<attributeUseRestriction>
+				<field>true</field>
+			</attributeUseRestriction>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>РегистрационныйНомер</dataPath>
+			<field>РегистрационныйНомер</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ТипДокументов</dataPath>
+			<field>ТипДокументов</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тип документов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СканКопияПриложена</dataPath>
+			<field>СканКопияПриложена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скан-копия приложена</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОригиналПолучен</dataPath>
+			<field>ОригиналПолучен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оригинал получен</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Просрочка</dataPath>
+			<field>Просрочка</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Просрочка</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КоличествоВсего</dataPath>
+			<field>КоличествоВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего документов</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолСканКопияПриложена</dataPath>
+			<field>КолСканКопияПриложена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документов со скан-копиями</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолОригиналПолучен</dataPath>
+			<field>КолОригиналПолучен</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документов с оригиналами</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолСканКопийНаКонтроле</dataPath>
+			<field>КолСканКопийНаКонтроле</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документов на контроле</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КолОригиналовНаКонтроле</dataPath>
+			<field>КолОригиналовНаКонтроле</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документов на контроле</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	&amp;ВходящиеДокументы КАК ТипДокументов,
+	ВходящийДокумент.Ссылка КАК Документ,
+	ВходящийДокумент.Организация КАК Организация,
+	ВходящийДокумент.ВидДокумента КАК ВидДокумента,
+	ВходящийДокумент.РегистрационныйНомер КАК РегистрационныйНомер,
+	ВходящийДокумент.ДатаРегистрации КАК ДатаРегистрации,
+	ВходящийДокумент.Отправитель КАК Контрагент,
+	ВЫБОР
+		КОГДА ВходящийДокумент.Ответственный &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+			ТОГДА ВходящийДокумент.Ответственный
+		ИНАЧЕ ВходящийДокумент.Создал
+	КОНЕЦ КАК Ответственный,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.УчитыватьСуммуДокумента
+			ТОГДА ВходящийДокумент.Сумма
+		ИНАЧЕ 0
+	КОНЕЦ КАК Сумма,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.ОбязателенФайлОригинала
+			ТОГДА ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ)
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК СканКопияПриложена,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+			ТОГДА ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ)
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ КАК ОригиналПолучен,
+	ВЫБОР
+		КОГДА (ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+					И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ
+				ИЛИ ВидыВходящихДокументов.ОбязателенФайлОригинала
+					И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ)
+				И ВходящийДокумент.ДатаРегистрации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА РАЗНОСТЬДАТ(ВходящийДокумент.ДатаРегистрации, &amp;ТекущаяДата, ДЕНЬ)
+		ИНАЧЕ 0
+	КОНЕЦ КАК Просрочка,
+	1 КАК КоличествоВсего,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ИСТИНА
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК КолСканКопияПриложена,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ИСТИНА
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК КолОригиналПолучен,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.ОбязателенФайлОригинала
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК КолСканКопийНаКонтроле,
+	ВЫБОР
+		КОГДА ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ КАК КолОригиналовНаКонтроле
+ИЗ
+	Справочник.ВходящиеДокументы КАК ВходящийДокумент
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОбщиеРеквизитыДокументов КАК ОбщиеРеквизитыДокументов
+		ПО (ОбщиеРеквизитыДокументов.Документ = ВходящийДокумент.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыВходящихДокументов КАК ВидыВходящихДокументов
+		ПО ВходящийДокумент.ВидДокумента = ВидыВходящихДокументов.Ссылка
+ГДЕ
+	НЕ ВходящийДокумент.ПометкаУдаления
+	И (ВидыВходящихДокументов.ОбязателенФайлОригинала
+			ИЛИ ВидыВходящихДокументов.КонтролироватьНаличиеОригинала)
+{ГДЕ
+	(ВЫБОР
+			КОГДА ВходящийДокумент.РегистрационныйНомер &lt;&gt; ""
+				ТОГДА ВходящийДокумент.ДатаРегистрации
+			ИНАЧЕ ВходящийДокумент.ДатаСоздания
+		КОНЕЦ МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания),
+	(ВходящийДокумент.РегистрационныйНомер = ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.НеЗарегистрированные)
+			ИЛИ ВходящийДокумент.РегистрационныйНомер &lt;&gt; ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Зарегистрированные)
+			ИЛИ &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Все)),
+	(&amp;Показывать = "БезОригиналов"
+				И (ВидыВходящихДокументов.ОбязателенФайлОригинала
+						И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+					ИЛИ ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+						И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ)
+			ИЛИ &amp;Показывать = "ТолькоБезСканКопий"
+				И ВидыВходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "ТолькоБезОригиналов"
+				И ВидыВходящихДокументов.КонтролироватьНаличиеОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "Все")}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ИсходящиеДокументы,
+	ИсходящийДокумент.Ссылка,
+	ИсходящийДокумент.Организация,
+	ИсходящийДокумент.ВидДокумента,
+	ИсходящийДокумент.РегистрационныйНомер,
+	ИсходящийДокумент.ДатаРегистрации,
+	ВЫРАЗИТЬ(ОбщиеРеквизитыДокументов.КонтрагентыДляСписков КАК СТРОКА(500)),
+	ВЫБОР
+		КОГДА ИсходящийДокумент.Ответственный &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+			ТОГДА ИсходящийДокумент.Ответственный
+		ИНАЧЕ ИсходящийДокумент.Подготовил
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыИсходящихДокументов.УчитыватьСуммуДокумента
+			ТОГДА ИсходящийДокумент.Сумма
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыИсходящихДокументов.ОбязателенФайлОригинала
+			ТОГДА ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ)
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ,
+	НЕОПРЕДЕЛЕНО,
+	ВЫБОР
+		КОГДА ВидыИсходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+				И ИсходящийДокумент.ДатаРегистрации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА РАЗНОСТЬДАТ(ИсходящийДокумент.ДатаРегистрации, &amp;ТекущаяДата, ДЕНЬ)
+		ИНАЧЕ 0
+	КОНЕЦ,
+	1,
+	ВЫБОР
+		КОГДА ВидыИсходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ИСТИНА
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	0,
+	ВЫБОР
+		КОГДА ВидыИсходящихДокументов.ОбязателенФайлОригинала
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	0
+ИЗ
+	Справочник.ИсходящиеДокументы КАК ИсходящийДокумент
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОбщиеРеквизитыДокументов КАК ОбщиеРеквизитыДокументов
+		ПО (ОбщиеРеквизитыДокументов.Документ = ИсходящийДокумент.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыИсходящихДокументов КАК ВидыИсходящихДокументов
+		ПО ИсходящийДокумент.ВидДокумента = ВидыИсходящихДокументов.Ссылка
+ГДЕ
+	НЕ ИсходящийДокумент.ПометкаУдаления
+	И ВидыИсходящихДокументов.ОбязателенФайлОригинала
+{ГДЕ
+	(ВЫБОР
+			КОГДА ИсходящийДокумент.РегистрационныйНомер &lt;&gt; ""
+				ТОГДА ИсходящийДокумент.ДатаРегистрации
+			ИНАЧЕ ИсходящийДокумент.ДатаСоздания
+		КОНЕЦ МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания),
+	(ИсходящийДокумент.РегистрационныйНомер = ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.НеЗарегистрированные)
+			ИЛИ ИсходящийДокумент.РегистрационныйНомер &lt;&gt; ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Зарегистрированные)
+			ИЛИ &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Все)),
+	(&amp;Показывать = "БезОригиналов"
+				И ВидыИсходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "ТолькоБезСканКопий"
+				И ВидыИсходящихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "Все")}
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	&amp;ВнутренниеДокументы,
+	ВнутреннийДокумент.Ссылка,
+	ВнутреннийДокумент.Организация,
+	ВнутреннийДокумент.ВидДокумента,
+	ВнутреннийДокумент.РегистрационныйНомер,
+	ВнутреннийДокумент.ДатаРегистрации,
+	ВнутреннийДокумент.Контрагент,
+	ВЫБОР
+		КОГДА ВнутреннийДокумент.Ответственный &lt;&gt; ЗНАЧЕНИЕ(Справочник.Пользователи.ПустаяСсылка)
+			ТОГДА ВнутреннийДокумент.Ответственный
+		ИНАЧЕ ВнутреннийДокумент.Подготовил
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.УчитыватьСуммуДокумента
+			ТОГДА ВнутреннийДокумент.Сумма
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+			ТОГДА ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ)
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+			ТОГДА ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ)
+		ИНАЧЕ НЕОПРЕДЕЛЕНО
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА (ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+					И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ
+				ИЛИ ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+					И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ)
+				И ВнутреннийДокумент.ДатаРегистрации &lt;&gt; ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА РАЗНОСТЬДАТ(ВнутреннийДокумент.ДатаРегистрации, &amp;ТекущаяДата, ДЕНЬ)
+		ИНАЧЕ 0
+	КОНЕЦ,
+	1,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ИСТИНА
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ИСТИНА
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ,
+	ВЫБОР
+		КОГДА ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+			ТОГДА 1
+		ИНАЧЕ 0
+	КОНЕЦ
+ИЗ
+	Справочник.ВнутренниеДокументы КАК ВнутреннийДокумент
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОбщиеРеквизитыДокументов КАК ОбщиеРеквизитыДокументов
+		ПО (ОбщиеРеквизитыДокументов.Документ = ВнутреннийДокумент.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВидыВнутреннихДокументов КАК ВидыВнутреннихДокументов
+		ПО ВнутреннийДокумент.ВидДокумента = ВидыВнутреннихДокументов.Ссылка
+ГДЕ
+	НЕ ВнутреннийДокумент.ПометкаУдаления
+	И (ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+			ИЛИ ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала)
+{ГДЕ
+	(ВЫБОР
+			КОГДА ВнутреннийДокумент.РегистрационныйНомер &lt;&gt; ""
+				ТОГДА ВнутреннийДокумент.ДатаРегистрации
+			ИНАЧЕ ВнутреннийДокумент.ДатаСоздания
+		КОНЕЦ МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания),
+	(ВнутреннийДокумент.РегистрационныйНомер = ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.НеЗарегистрированные)
+			ИЛИ ВнутреннийДокумент.РегистрационныйНомер &lt;&gt; ""
+				И &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Зарегистрированные)
+			ИЛИ &amp;ПоказыватьДокументы = ЗНАЧЕНИЕ(Перечисление.ПоказыватьДокументы.Все)),
+	(&amp;Показывать = "БезОригиналов"
+				И (ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+						И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+					ИЛИ ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+						И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ)
+			ИЛИ &amp;Показывать = "ТолькоБезСканКопий"
+				И ВидыВнутреннихДокументов.ОбязателенФайлОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.СодержитОригинал, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "ТолькоБезОригиналов"
+				И ВидыВнутреннихДокументов.КонтролироватьНаличиеОригинала
+				И ЕСТЬNULL(ОбщиеРеквизитыДокументов.ОригиналПолучен, ЛОЖЬ) = ЛОЖЬ
+			ИЛИ &amp;Показывать = "Все")}
+
+УПОРЯДОЧИТЬ ПО
+	Просрочка УБЫВ</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КоличествоВсего</dataPath>
+		<expression>Сумма(КоличествоВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолОригиналПолучен</dataPath>
+		<expression>Сумма(КолОригиналПолучен)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолСканКопияПриложена</dataPath>
+		<expression>Сумма(КолСканКопияПриложена)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолОригиналовНаКонтроле</dataPath>
+		<expression>Сумма(КолОригиналовНаКонтроле)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КолСканКопийНаКонтроле</dataPath>
+		<expression>Сумма(КолСканКопийНаКонтроле)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПоказыватьДокументы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показывать документы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.ПоказыватьДокументы</v8:Type>
+		</valueType>
+		<value xsi:nil="true"/>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ВнутренниеДокументы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Внутренние документы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">Внутренние документы</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ВходящиеДокументы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Входящие документы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">Входящие документы</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ИсходящиеДокументы</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Исходящие документы</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string">Исходящие документы</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>Показывать</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Показывать</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>0</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>false</useRestriction>
+		<availableValue>
+			<value xsi:type="xs:string">БезОригиналов</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не получен оригинал или не приложена скан-копия</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">ТолькоБезОригиналов</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только без оригиналов</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">ТолькоБезСканКопий</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Только без скан-копий</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+		<availableValue>
+			<value xsi:type="xs:string">Все</value>
+			<presentation xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Все</v8:content>
+				</v8:item>
+			</presentation>
+		</availableValue>
+	</parameter>
+	<parameter>
+		<name>ТекущаяДата</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Текущая дата</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>ТекущаяДата()</expression>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>СписокДокументовБезОригиналов</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Контроль наличия оригиналов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Документ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>РегистрационныйНомер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ДатаРегистрации</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОригиналПолучен</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СканКопияПриложена</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Просрочка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Ответственный</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>0d0859ac-434a-4a7e-ae77-36fd9944016b</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">FromBeginningOfThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>1aa4aeb3-a11f-4ae8-a315-f3ea166e9c8c</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПоказыватьДокументы</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.ПоказыватьДокументы.Зарегистрированные</dcscor:value>
+					<dcsset:userSettingID>01b00c11-93c3-4d00-b7ba-946a8b4a8d6a</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Показывать</dcscor:parameter>
+					<dcscor:value xsi:type="xs:string">БезОригиналов</dcscor:value>
+					<dcsset:userSettingID>3031b8ad-5394-431f-9f16-570ee427c595</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Ответственный</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Ответственный</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="xs:string"/>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Output</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контроль наличия оригиналов</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>ТипДокументов</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+	<settingsVariant>
+		<dcsset:name>СтатистикаПоОригиналам</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Статистика получения оригиналов</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документов с оригиналами</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КолОригиналПолучен</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Оригиналы получены</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КолОригиналовНаКонтроле</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Всего на контроле</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документов с приложенными скан-копиями</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КолСканКопияПриложена</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Скан-копии приложены</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КолСканКопийНаКонтроле</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Всего на контроле</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоВсего</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Ответственный</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>ec1a40ce-0d22-471e-b62d-5728b6c508df</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>d36cb096-cf11-4321-ab66-627fbdc75a48</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПоказыватьДокументы</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.ПоказыватьДокументы.Зарегистрированные</dcscor:value>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>КолОригиналовНаКонтроле</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КолОригиналПолучен</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КолСканКопийНаКонтроле</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КолСканКопияПриложена</dcsset:field>
+						</dcsset:item>
+						<dcsset:item>
+							<dcsset:field>КоличествоВсего</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Формат</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ЧН=-</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статистика получения оригиналов</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Ответственный</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cde0886d-d1d4-445a-ac98-450a77c97e77">
+  <producedTypes>
+    <selectionType typeId="4b7387dc-2d00-4e3b-8521-73e05cad472c" valueTypeId="bd6f8e7f-ce08-4647-b3c7-47676ec257ca"/>
+    <listType typeId="f87a958f-45e9-4f40-b2af-ca9590a949b8" valueTypeId="dd6de8b6-a999-4b8c-b614-6135a771182e"/>
+    <managerType typeId="bd0927ac-50f5-4e6b-aa35-0db6b68d4f84" valueTypeId="ae0f873e-048a-47ff-8bd6-a1d1a34f6b8f"/>
+    <recordSetType typeId="462d471e-d44c-4ed4-99f4-a7bb7b2123c8" valueTypeId="73728436-566d-41ea-86d6-b3bb0fffa7f1"/>
+    <recordKeyType typeId="1f7f1191-37d4-46f1-8af9-2d7086dca78b" valueTypeId="b8946896-64fa-4edf-9ef4-03fcd19e5573"/>
+    <recordType typeId="d5aafb10-41fc-4a0c-80d8-2c710fe6667f" valueTypeId="44069ba8-958e-4d96-9866-b4dfbf70bb7e"/>
+    <recordManagerType typeId="358ee766-fa4a-4151-b05f-8a10eb8160d9" valueTypeId="a532a912-b847-4a99-b56e-1b1685debbe0"/>
+  </producedTypes>
+  <name>ОчередьОбновленияОбсуждений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь обновления обсуждений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b71c03f8-f8c0-4372-84a7-81d2ec6e88d3">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="720760ff-bb17-4844-b217-7a34c40c84c1">
+    <name>ДополнительныеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные параметры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="a3219400-f7a8-4a9d-9d6e-e620b3694183">
+    <name>Приоритет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <comment>Чем больше приоритет, тем раньше нужно обработать запись</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a87db0a8-5866-4838-9276-3c21626e0958">
+    <name>УдалитьДатаВМиллиСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Дата в миллисекундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9853457d-6db3-49fd-8f19-d67d0f96b680">
+    <name>КоличествоПопытокОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток обработки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9de8d3f9-9d7c-46e8-8a36-a8f5f894d511">
+    <name>ТекстОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст ошибки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="18cda7a3-e50b-441c-8c3e-0be9bd44dded">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+      <types>EnumRef.ЗаданияОчередиОбновленияОбсуждений</types>
+      <types>CatalogRef.СтруктураПредприятия</types>
+      <types>CatalogRef.РабочиеГруппы</types>
+      <types>CatalogRef.ПолныеРоли</types>
+      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.Мероприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="44fd1876-9179-49c2-a3ae-b9fee8bec86a">
+    <name>ДатаВМиллисекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата в миллисекундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>14</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

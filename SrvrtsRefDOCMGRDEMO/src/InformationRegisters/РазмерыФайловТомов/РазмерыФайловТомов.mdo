@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="650025c0-09f8-4f5e-a046-972a6df271ff">
+  <producedTypes>
+    <selectionType typeId="de53aad8-e7fd-4bbb-ad43-5317c5f7261b" valueTypeId="c8a27342-993b-4237-918b-04cf518d4412"/>
+    <listType typeId="8dc3ce9b-e858-4255-96f2-82dfe262e574" valueTypeId="237c5f3f-1a3d-4c3b-a5c5-20ac451afc36"/>
+    <managerType typeId="21a917c4-dd67-4f65-a86c-a1dcd520502c" valueTypeId="1e84e099-33c8-4a5d-92eb-8001d9ec32e6"/>
+    <recordSetType typeId="d50754fd-e8bd-4d61-9e01-23cd0bf08aca" valueTypeId="e21c3c14-bf3f-4cd2-885e-445e737a744e"/>
+    <recordKeyType typeId="e40520ca-8335-442b-a604-454e6a196b09" valueTypeId="81ae529d-077e-4bc2-952a-a8a61d4265e2"/>
+    <recordType typeId="5a622eab-c049-4a5d-8077-f34b6b331cf2" valueTypeId="1605e410-b233-4c56-bbe5-ff0122b6d480"/>
+    <recordManagerType typeId="15a9c308-53c1-4651-b50b-d454ccb42784" valueTypeId="aece9a57-aca2-4e77-a6e1-c2d6982e9f5f"/>
+  </producedTypes>
+  <name>РазмерыФайловТомов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размеры файлов томов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fb8039eb-b0d4-415f-a40c-168bb34a450a">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="62866f0d-7c7f-4da0-a551-e1517211f867">
+    <name>Том</name>
+    <synonym>
+      <key>ru</key>
+      <value>Том</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТомаХраненияФайлов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

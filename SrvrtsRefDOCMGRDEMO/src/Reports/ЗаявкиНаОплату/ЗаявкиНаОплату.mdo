@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="739d5159-87c1-4e3b-a616-b2dafe80353f">
+  <producedTypes>
+    <objectType typeId="b0347c8f-1a87-4c4b-a6c0-5e83a3e14b8d" valueTypeId="41203817-07f1-4599-b28e-76b37109e1d1"/>
+    <managerType typeId="9b0d54b2-259f-4626-b0b4-7cfa72bd2f2d" valueTypeId="e8ad7abc-6df2-4b49-b0d2-fe9b839fd1ef"/>
+  </producedTypes>
+  <name>ЗаявкиНаОплату</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на оплату</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ЗаявкиНаОплату.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="0284fddb-027d-44a5-8aee-cddfb410b01b">
+    <name>ОбразецОтчетаДинамикаОплатПоЗаявкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета Динамика оплат по заявкам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="39688c41-3f91-4e5c-9c6d-848504279952">
+    <name>ОбразецОтчетаЗаявкиБезАвансовыхОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета Заявки без авансовых отчетов</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="63fa6bab-0398-4962-9eac-c8e3d0db2546">
+    <name>ОбразецОтчетаИсполненныеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета Исполненные заявки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="19f071f6-77ca-4843-b88d-ce380b7c4370">
+    <name>ОбразецОтчетаПланОплатПоЗаявкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета План оплат по заявкам</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="61ab1b02-ef5e-4e97-9bf2-c77c64728fe5">
+    <name>ОбразецОтчетаПросроченныеЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образец отчета Просроченные заявки</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="047b58ec-2e3d-4720-9b93-e23dc1a770e2">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

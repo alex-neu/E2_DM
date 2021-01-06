@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17c969ab-702b-4ae4-9415-27f0346ee0ba">
+  <producedTypes>
+    <objectType typeId="77b18629-fe15-47bf-8e62-598f8a4d4ec5" valueTypeId="6f4f9a69-fc1b-4c21-86b4-90171080370f"/>
+    <refType typeId="5a5f8929-5c53-4584-b127-186f798fc499" valueTypeId="9ba25b57-5cb5-46c4-8db9-4b1810d4c199"/>
+    <selectionType typeId="3ff210de-fbd0-437d-89fa-64ab2bbef667" valueTypeId="c352d78e-ccb7-4bb3-ba73-dd904472e5b6"/>
+    <listType typeId="739e2382-eac0-40c3-a49f-bb0c4c0f3038" valueTypeId="553b737f-5d1f-4b5f-8ca0-123f855ec9a0"/>
+    <managerType typeId="d582c937-d409-436b-be79-8cb68a39b21c" valueTypeId="d45bed75-542e-4c08-935a-d4708cf7c404"/>
+  </producedTypes>
+  <name>СостоянияЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния чат-бота</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СостоянияЧатБота.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СостоянияЧатБота.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>c88df8ae-5dea-4e94-95e1-f8b100c76d4f.00000000-0000-0000-0000-000000000000</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Состояние чат-бота</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="b425bf44-704a-4305-a41e-49cbc2387313">
+      <name>НеНайдено</name>
+      <description>Не найдено</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+    </items>
+    <items id="9b363ea5-a6ba-4643-ac38-47f6f810e188">
+      <name>Стоп</name>
+      <description>Стоп</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+    </items>
+    <items id="b4af1f51-4746-487d-8d0f-b25b8d51c8d1">
+      <name>Уточнение</name>
+      <description>Уточнение</description>
+      <code xsi:type="core:StringValue">
+        <value>3</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СостоянияЧатБота.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СостоянияЧатБота.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СостоянияЧатБота.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="a3dde0c8-a517-4b2f-b012-92fc1fdc9c93">
+    <name>Используется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Включает состояние для общения с чат-ботом.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5181a4d1-c01a-4cfb-81a6-7fa1a19e7394">
+    <name>Действие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3d3d7083-eff6-4ec0-854d-e833f0b411f1">
+    <name>ДоступноИзЛюбогоСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступно из любого состояния</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Делает состоянием доступным при поиске по ключевым словам из любых других состояний.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <indexing>Index</indexing>
+  </attributes>
+  <attributes uuid="b386147c-8da0-4b3e-89b7-d8bf89c747e6">
+    <name>ИмяЗаполняемогоПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя заполняемого параметра</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c7cb27e-dbf7-4c21-84e9-7790c7af14fa">
+    <name>ПримерЗаполняемогоПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пример заполняемого параметра</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="78e73b41-f0c7-4e94-8f53-c8568c0ffec9">
+    <name>ТипСостояния</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип состояния</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыСостоянийЧатБота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ТипыСостоянийЧатБота.EnumValue.Высказывание</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="911c390a-bdff-4770-81db-9c6c1719d7f7">
+    <name>КлючевыеСлова</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключевые слова</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Слова или выражения, по которым бот будет искать текущее состояние.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c4af198c-7ab9-4015-9ee1-370f5aa49e76">
+    <name>Высказывание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высказывание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Высказывание, которым бот будет отвечать пользователю в текущем состоянии.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9bdf5801-1bb5-4255-821e-ab07f7c15624">
+    <producedTypes>
+      <objectType typeId="98cba744-98db-459a-a4f0-4b59f03139b4" valueTypeId="72d8665b-5da4-4519-b977-d0f585dbee7c"/>
+      <rowType typeId="b2c4ba03-bca4-4cca-bcef-d734a2c3e08d" valueTypeId="b2611435-d4ac-4c68-9c7b-8f1779daf8bf"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="640c226d-2ade-4054-abe9-21f42f8a706f">
+      <name>ИмяПараметра</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="815e539d-7c6f-4d18-b636-57f08609a21b">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fe72c0cd-361a-4ae6-9592-524a66c666f7">
+    <producedTypes>
+      <objectType typeId="e8c1a389-0722-4772-afd9-505c78207c3f" valueTypeId="37328099-7720-403b-b310-0f9b136b6913"/>
+      <rowType typeId="afadaa66-58a5-4e3f-8734-1cd2b2b4fe41" valueTypeId="b94f4e17-8bc8-4cff-9918-3a7e23663ead"/>
+    </producedTypes>
+    <name>Вложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вложения</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Вложения, которые бот приложит к своему ответу.</value>
+    </toolTip>
+    <attributes uuid="2f8b2566-8df4-4a04-9411-1080da9a5227">
+      <name>Вложение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вложение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПапкиФайлов</types>
+        <types>CatalogRef.Файлы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3138892b-427a-4ff2-890e-ca61f0e7e6ac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c6ab5d19-42b5-452a-aee9-c86ddee8ee93">
+    <name>ФормаЗаполненияПараметра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заполнения параметра</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7478c3d-ec95-4a1f-9316-1edaa41117be">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="938dea1c-1e34-4602-92c6-5c014fa6b9a9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

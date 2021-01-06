@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6681d22b-3fc3-40dd-9b34-63bf0cf4a06e">
+  <producedTypes>
+    <selectionType typeId="8bf8d4a5-2ed5-4071-ba82-0258b127bbad" valueTypeId="39698698-31e9-436a-aa68-f0405ceef02f"/>
+    <listType typeId="f66041fd-49ca-4323-bf2e-c3ecebfc6bbc" valueTypeId="97ceb71c-3478-4b00-8074-e920882ecdb5"/>
+    <managerType typeId="ffb92c04-ef18-486b-84e9-1266428e7306" valueTypeId="2395affb-131a-44e4-9b7c-2893f74ce03f"/>
+    <recordSetType typeId="b223f374-10d1-46b5-abfd-cabe3de0a98b" valueTypeId="35d1f8c1-4b0a-4ffd-bf31-bf1fd4223750"/>
+    <recordKeyType typeId="83dce99a-1a77-414e-ab46-037863d323a7" valueTypeId="bbb6ec57-e5bb-45ae-a24d-a8aa0d255faf"/>
+    <recordType typeId="5b483ff9-1602-4e0b-9966-fce0ae3e5f4c" valueTypeId="5b4bd186-efa6-4b61-afb0-821d3a49e4d4"/>
+    <recordManagerType typeId="f72e99b1-9598-4d98-b13a-6a2ba64c15a0" valueTypeId="680945ad-a72d-4178-841b-4c92a691cf12"/>
+  </producedTypes>
+  <name>ЗаписиСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записи синхронизации календарей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9d3639de-2b13-4f54-9061-1ea139b46e20">
+    <name>ИдентификаторКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор календаря</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="686c0968-a5fd-47af-9952-1eba0ab5a78c">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="543c56f9-469e-4c2f-9f8d-0fc0900c6217">
+    <name>ОтпечатокОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпечаток объекта</value>
+    </synonym>
+    <comment>Etag</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="5bb42b00-5916-4a23-bec5-a039a62f030d">
+    <name>БезОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без описания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="62bc9e0d-ba6f-46a3-902f-4a1288d4de9c">
+    <name>ЗаписьРабочегоКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись рабочего календаря</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗаписиРабочегоКалендаря</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c0106581-4064-47be-8272-d921b3d4d40f">
+    <name>Узел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef.СинхронизацияКалендарей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="43e103d5-0de4-4644-99a1-9edbe8302156" extendedConfigurationObject="e5486096-4326-4785-9cc0-10c21b30ea18">
+  <producedTypes>
+    <objectType typeId="cb9e3d81-f7cf-4f82-88d3-29054c1a2932" valueTypeId="91028bd3-72d5-4669-b2da-08726cb4b4e8"/>
+    <refType typeId="f87a4143-ca39-49f8-a951-ff462e7bceb9" valueTypeId="da3b5ee8-e890-4f38-8b88-0a0b22676453"/>
+    <selectionType typeId="1b23c393-aec6-4f48-8def-dc02bfbcf94d" valueTypeId="7bd7a951-2357-488e-887c-51a821c21376"/>
+    <listType typeId="b41008d2-f1e3-45d1-8b00-a6ccae0a0385" valueTypeId="50debfbc-e7af-4621-a49b-84fc918147f3"/>
+    <managerType typeId="d2690619-61fc-4a43-8b20-5737106b4fe4" valueTypeId="127dd70b-9ddd-4e38-a586-8e395034f3db"/>
+  </producedTypes>
+  <name>АдреснаяКнига</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="4a6f8126-c3ab-4d05-8c24-9846bb4a3d32" extendedConfigurationObject="78237bbf-8c3a-43e7-86d7-5f1c33de7525">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

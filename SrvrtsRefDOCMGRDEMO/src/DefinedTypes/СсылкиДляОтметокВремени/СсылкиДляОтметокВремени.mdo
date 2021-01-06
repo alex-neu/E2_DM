@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="128e3344-92cf-4baf-81e5-e99abb63c23b">
+  <producedTypes>
+    <containerType typeId="c689747a-d09a-439a-af8c-a682027cc53b" valueTypeId="7e05534d-f21e-4ed2-9a05-360f710adcf8"/>
+  </producedTypes>
+  <name>СсылкиДляОтметокВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылки для отметок времени</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контроль</types>
+    <types>CatalogRef.Проекты</types>
+    <types>DocumentRef.ЕженедельныйОтчет</types>
+    <types>BusinessProcessRef.Исполнение</types>
+    <types>CatalogRef.ЛичныеАдресаты</types>
+    <types>CatalogRef.ВидыРабот</types>
+    <types>CatalogRef.РолиИсполнителей</types>
+    <types>DocumentRef.ВходящееПисьмо</types>
+    <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>DocumentRef.ИсходящееПисьмо</types>
+    <types>CatalogRef.ГрафикУчетаСамочувствияСотрудников</types>
+    <types>CatalogRef.ШаблоныТекстов</types>
+    <types>CatalogRef.ЗаписиРабочегоКалендаря</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ПапкиПисем</types>
+    <types>DocumentRef.Отсутствие</types>
+    <types>DocumentRef.ЕжедневныйОтчет</types>
+    <types>CatalogRef.Пользователи</types>
+    <types>DocumentRef.СамочувствиеСотрудника</types>
+    <types>EnumRef.ОбменСМобильнымиТипыНастроекПользователей</types>
+    <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>CatalogRef.Мероприятия</types>
+    <types>CatalogRef.АдресатыПочтовыхСообщений</types>
+    <types>CatalogRef.КонтактныеЛица</types>
+    <types>CatalogRef.ВидыОтсутствий</types>
+  </type>
+</mdclass:DefinedType>

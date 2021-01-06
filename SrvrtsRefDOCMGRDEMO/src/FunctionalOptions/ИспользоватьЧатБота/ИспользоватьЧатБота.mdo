@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84c62e65-d5c5-4e47-8e39-b39740dc5fe2">
+  <name>ИспользоватьЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать чат-бота</value>
+  </synonym>
+  <location>Constant.ИспользоватьЧатБота</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ИсторияБеседСЧатБотом</content>
+  <content>Catalog.СостоянияЧатБота</content>
+  <content>Catalog.ВычисляемыеПараметрыЧатБота</content>
+  <content>Enum.ТипыСостоянийЧатБота</content>
+</mdclass:FunctionalOption>

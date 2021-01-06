@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f60f1f1a-23ab-4fb2-8229-c2deebad589c">
+  <name>КонтрольНаличияОригиналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль наличия оригиналов</value>
+  </synonym>
+  <methodName>CommonModule.Делопроизводство.КонтрольНаличияОригиналов</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

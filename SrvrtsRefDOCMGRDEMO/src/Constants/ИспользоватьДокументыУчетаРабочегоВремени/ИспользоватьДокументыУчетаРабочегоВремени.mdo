@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d3a53fc-e319-42f8-ad8c-c758ce1dba05">
+  <producedTypes>
+    <managerType typeId="419f5b3a-986c-44be-99a1-046d376d6964" valueTypeId="01ca988b-605a-4b54-8663-bbaba24bd950"/>
+    <valueManagerType typeId="44b2a6ce-509c-4218-9125-9be831218562" valueTypeId="5d1c38dd-69c0-47e2-9ddd-c25f66f94fbf"/>
+    <valueKeyType typeId="124db4a6-c532-411d-b4f5-c9da8f47b032" valueTypeId="1e9a1cc3-24c9-454f-8e02-2fc4fd7a0f29"/>
+  </producedTypes>
+  <name>ИспользоватьДокументыУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документы учета рабочего времени</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

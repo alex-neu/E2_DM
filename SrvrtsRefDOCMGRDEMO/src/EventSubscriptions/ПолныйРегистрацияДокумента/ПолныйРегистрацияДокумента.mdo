@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f89b085-4943-49c9-b637-cd58a081c237">
+  <name>ПолныйРегистрацияДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полный регистрация документа</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.УничтожениеДел</types>
+    <types>DocumentObject.ЕженедельныйОтчет</types>
+    <types>DocumentObject.ПередачаДелВАрхив</types>
+    <types>DocumentObject.ВходящееПисьмо</types>
+    <types>DocumentObject.ЕжедневныйОтчет</types>
+    <types>DocumentObject.ОтзывСогласияНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.ИсходящееПисьмо</types>
+    <types>DocumentObject.ВыгрузкаВССТУ</types>
+    <types>DocumentObject.Отсутствие</types>
+    <types>DocumentObject.СогласиеНаОбработкуПерсональныхДанных</types>
+    <types>DocumentObject.СамочувствиеСотрудника</types>
+    <types>DocumentObject.Бронь</types>
+    <types>DocumentObject.СправкиСПАРКРиски</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиСобытияДокументооборот.ОбменДаннымиПолныйПередЗаписьюДокумента</handler>
+</mdclass:EventSubscription>

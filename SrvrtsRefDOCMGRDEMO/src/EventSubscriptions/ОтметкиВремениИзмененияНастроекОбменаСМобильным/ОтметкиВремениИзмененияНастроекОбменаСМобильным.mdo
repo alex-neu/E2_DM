@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d832db9-b335-48df-8576-24f13dbd4742">
+  <name>ОтметкиВремениИзмененияНастроекОбменаСМобильным</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки времени изменения настроек обмена с мобильным</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.ИзмененныеНастройкиСинхронизацииСМобильнымКлиентом</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОтметкиВремениСобытия.ОтметкиВремениИзмененияНастроекОбменаСМобильным</handler>
+</mdclass:EventSubscription>

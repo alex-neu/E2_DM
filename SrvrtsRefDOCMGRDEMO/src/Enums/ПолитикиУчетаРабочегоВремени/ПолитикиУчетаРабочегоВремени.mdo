@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7edc664-7bb5-433a-9218-da7d954c67d4">
+  <producedTypes>
+    <refType typeId="f8e2d37b-d9e2-4215-b124-ff6fc4a030e2" valueTypeId="50d310d0-1abc-4116-ba52-75a67e422e68"/>
+    <listType typeId="4bc5fe14-2a38-428f-9d37-f92b7dbeb3f7" valueTypeId="f2521aca-b2e4-4dfe-bd6d-3785ee639065"/>
+    <managerType typeId="17f0df5b-ae05-45fe-a527-53916e9666fd" valueTypeId="eb730a24-3b0c-4b15-86a5-6fbb22c1ae13"/>
+  </producedTypes>
+  <name>ПолитикиУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Политики учета рабочего времени</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89be23a8-301c-45a2-8f94-83abc08ff6a5">
+    <name>НеУчитывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e67a666-e5f6-4e4a-bb4f-d5dee5041411">
+    <name>ИспользоватьЕжедневныеОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ежедневные отчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7735e4b6-3009-4074-aed6-433a62f248c2">
+    <name>ИспользоватьЕженедельныеОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать еженедельные отчеты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83323cfd-8de4-4157-bffe-4ee14026829e">
+    <name>ИспользоватьЕжедневныеИЕженедельныеОтчеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать ежедневные и еженедельные отчеты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

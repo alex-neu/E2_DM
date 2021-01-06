@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f22ecf9e-e9bd-4cb6-8ff5-191d4ae4af38">
+  <producedTypes>
+    <refType typeId="ad020e7c-f651-4da3-a549-a3e10e99803a" valueTypeId="719cd7c7-b976-48ac-9b1c-f5c662783be3"/>
+    <listType typeId="22cc483a-f92b-4379-b45b-7fcdcb76c085" valueTypeId="0611214c-72a5-4d57-a44d-a6b356a3dbdb"/>
+    <managerType typeId="27b294e2-6f23-4504-b59d-c1a89cc4836e" valueTypeId="30a84d68-e70c-466a-ac08-5b4d410be033"/>
+  </producedTypes>
+  <name>ВариантыРежимовРаспознаванияФайлов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты режимов распознавания файлов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b6113cf6-2cc4-422a-8aaf-c787acae37a7">
+    <name>ПоЗапросу</name>
+    <synonym>
+      <key>ru</key>
+      <value>По запросу</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cbbded71-63b2-4def-ae0f-183adb80af82">
+    <name>Автоматический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

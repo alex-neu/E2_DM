@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="870a2d61-953e-49a9-b01b-b0e37c15bae2">
+  <name>Отсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отсутствия</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>FunctionalOption.ИспользоватьОтсутствия</content>
+  <content>Document.Отсутствие</content>
+  <content>Constant.ИспользоватьОтсутствия</content>
+  <content>Catalog.ВидыОтсутствий</content>
+  <content>CommonModule.Отсутствия</content>
+  <content>CommonModule.ОтсутствияКлиент</content>
+  <content>CommonModule.ОтсутствияКлиентСервер</content>
+  <content>CommonModule.ОтсутствияВызовСервера</content>
+  <content>Report.Отсутствия</content>
+  <content>StyleItem.ОтсутствиеЦветФона</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1101a6e-c69c-4a19-8236-c61bc6929e68">
+  <producedTypes>
+    <managerType typeId="2af61165-65e1-4d2f-85dd-c3a57220596f" valueTypeId="33325352-df6e-43dc-864b-092ff6c27bba"/>
+    <valueManagerType typeId="a0ff1108-a097-43d8-8cca-f187725b09e8" valueTypeId="06f2a4e7-fd60-466d-a692-dd65888c7eaf"/>
+    <valueKeyType typeId="5a470f97-fcdf-4a07-b69e-2982ac93c7ec" valueTypeId="7ddc11e3-05b9-44a7-8c74-c87c515dba20"/>
+  </producedTypes>
+  <name>РасширенияФайловДляПроверкиБлокировкиФайлаНаДиске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расширения файлов для проверки блокировки файла на диске</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

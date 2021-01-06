@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="962492dc-5a35-43bf-a869-c5d8031d6fb8">
+  <producedTypes>
+    <selectionType typeId="d045021c-5c4c-4c39-a510-41cda9429042" valueTypeId="9b7a7d46-604a-44d1-bd66-4051e4b36020"/>
+    <listType typeId="ad6785b3-193b-4d9f-bd51-79c5c96cd833" valueTypeId="cbad41bf-fc4c-4ba5-b5d2-3b478ed2b277"/>
+    <managerType typeId="b7e21612-7289-4af0-a683-54cc9d82f7c0" valueTypeId="1697dcdc-30bd-4db0-b298-ef5dee8b4610"/>
+    <recordSetType typeId="b7b09e4e-9327-480b-96a7-4f2db8069e49" valueTypeId="4fdf794c-b82b-498b-bed2-eef966d2a5de"/>
+    <recordKeyType typeId="f2f58738-be52-47bb-9638-4fbd6560570d" valueTypeId="4feda2f6-ebf0-47ea-8c87-91e22404cdc0"/>
+    <recordType typeId="85cff698-dce0-4221-9cb1-d1d9782f363e" valueTypeId="03381360-0fda-4135-987c-f17598eb79cf"/>
+    <recordManagerType typeId="03fb6d0c-27b4-48b4-aec6-8854315cbfa9" valueTypeId="dc7a076d-9fdf-419d-8034-1815ab2711f1"/>
+  </producedTypes>
+  <name>ЗадачиСПодзадачами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи с подзадачами</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="065c6f89-283a-4912-8715-fdf3609c12e2">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>TaskRef.ЗадачаИсполнителя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

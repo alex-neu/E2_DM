@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81b343f3-cb9c-45a1-baa9-7c86220f0250">
+  <producedTypes>
+    <managerType typeId="03971204-bc0a-478f-b22b-850497114e2c" valueTypeId="31d70dfc-3d55-49f1-97f8-f38eaff77a78"/>
+    <valueManagerType typeId="bd47e87c-42ea-44d6-a721-ae81030774bd" valueTypeId="77437830-c876-440f-8e8a-2ad49f0e8cfe"/>
+    <valueKeyType typeId="0b3d1bd9-6646-5a48-8f81-c40e13b140a5" valueTypeId="d6b49b78-c0cc-55ef-8386-c414953bd4a0"/>
+  </producedTypes>
+  <name>ИспользуетсяРаспознаваниеПриПомощиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется распознавание при помощи сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

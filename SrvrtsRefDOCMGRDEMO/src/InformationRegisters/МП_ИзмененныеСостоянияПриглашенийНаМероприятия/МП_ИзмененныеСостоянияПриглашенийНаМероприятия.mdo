@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed6ef8b2-50c0-4e88-8751-851f603845a1">
+  <producedTypes>
+    <selectionType typeId="c19fc264-b3e6-4ad5-8fc3-6a5332f7fb50" valueTypeId="fb2c3e22-77a5-41f5-9a8d-2518c7003bf5"/>
+    <listType typeId="3ebd82a7-52ec-4106-bd7f-2355ff8cce8a" valueTypeId="f14108fd-bc08-4993-b0dc-50278c7afe7c"/>
+    <managerType typeId="51f881c2-ea48-48e7-a268-bee6264983d8" valueTypeId="49c160ff-2efe-4152-b382-2de9ee924138"/>
+    <recordSetType typeId="102b80d9-75f1-40e6-90a9-34d7fde64e0d" valueTypeId="f202f2b5-b5ee-4477-8526-4ebfdb149442"/>
+    <recordKeyType typeId="263de21d-e74c-46de-b7a1-a9a6b7d93527" valueTypeId="de73f70c-9846-4ab8-80b4-84fe3f9fe3a3"/>
+    <recordType typeId="2805a326-4b36-4576-b4e4-0085d60ec16a" valueTypeId="0cfadf3f-f954-4e13-98d0-5a1aba2f5edf"/>
+    <recordManagerType typeId="204922bd-7729-42a3-b25c-3f8dfa2c4f4b" valueTypeId="701d740c-59b0-4770-95d6-b85d75d9201b"/>
+  </producedTypes>
+  <name>МП_ИзмененныеСостоянияПриглашенийНаМероприятия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Измененные приглашения на мероприятия (Мобильное приложение)</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="608ba109-bcf2-4a2d-91b9-fa499a7e3745">
+    <name>ОтметкаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка времени</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтметкаВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e8e65a74-5254-4df8-bb59-344eb0c0c191">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9bb9ffb4-df0b-489c-9a2d-37931aa15de6">
+    <name>Мероприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мероприятие</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Мероприятия</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

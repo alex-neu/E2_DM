@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57f948f8-6247-4aa2-88cb-633d542995b3">
+  <name>ИспользуетсяРаспознаваниеПриПомощиCuneiForm</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используется распознавание при помощи CuneiForm</value>
+  </synonym>
+  <location>Constant.ИспользуетсяРаспознаваниеПриПомощиCuneiForm</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DataProcessor.АвтоматическоеРаспознаваниеИзображений.Command.АвтоматическоеРаспознаваниеИзображений</content>
+  <content>DataProcessor.АвтоматическоеРаспознаваниеИзображений</content>
+</mdclass:FunctionalOption>

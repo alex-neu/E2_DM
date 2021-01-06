@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cff7484a-6dcc-49d5-a169-882d518f5ac0">
+  <producedTypes>
+    <refType typeId="62b3d2af-1efa-4f5b-bd09-ea5326eea2a1" valueTypeId="3af25fe9-c5c5-49ad-9ab5-2fdaa6676459"/>
+    <listType typeId="78683390-eb17-4429-b6b6-fe0cf1a35a3c" valueTypeId="50c83345-0e6b-4a16-8afb-87a07c179e43"/>
+    <managerType typeId="aa2ecf63-a581-4153-b87b-863924ac185d" valueTypeId="9a4b5ac1-80e1-4e73-bb05-e8832f06f007"/>
+  </producedTypes>
+  <name>ТипыСинхронизацииКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы синхронизации календарей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d853ea60-2e7f-4720-bb4f-6128ec28cb80">
+    <name>Google</name>
+    <synonym>
+      <key>ru</key>
+      <value>Google</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e7d58a7-ca74-4da7-911b-325e2d3edc1f">
+    <name>DAV</name>
+    <synonym>
+      <key>ru</key>
+      <value>DAV</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2605a9c3-6d55-4c88-ba0c-92496d650b95">
+  <producedTypes>
+    <refType typeId="bb292e7d-ebfa-40b8-bf70-7722e6130731" valueTypeId="ef73d6d2-97c8-4976-bb8a-c93f844a4848"/>
+    <listType typeId="6f4eb899-79df-4eb6-a497-29804e6d7352" valueTypeId="0a6cb6d2-49a7-420f-81ce-4c3c6fedc6ef"/>
+    <managerType typeId="2a2246e4-81f0-4554-b562-d923b3095681" valueTypeId="37816030-943f-48c1-976a-e9b03d8b3638"/>
+  </producedTypes>
+  <name>ЦветаПланировщика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цвета планировщика</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b6ddc2c-54c8-488a-992d-a0f3fb270fcb">
+    <name>Желтый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Желтый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98a7f989-42c7-4924-a4ad-b665b624cd8c">
+    <name>Зеленый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зеленый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ffa9f53c-1018-4809-bf0b-7798e6031769">
+    <name>Красный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Красный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a73bb928-7060-4b04-9378-265be36b3be7">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b256bd4-0083-49a9-9c74-e97d82af9e56">
+    <name>Оранжевый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оранжевый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="06af8ca0-af9c-4a4e-929c-7365811affad">
+    <name>Серый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="52accca3-6e14-4d57-ac6c-a8927333707f">
+    <name>Синий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синий</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

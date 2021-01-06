@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36c9154e-6406-475b-8895-4e3fc2fffd5f">
+  <name>ЗадачаНейтральноеВыполнение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача нейтральное выполнение</value>
+  </synonym>
+</mdclass:CommonPicture>

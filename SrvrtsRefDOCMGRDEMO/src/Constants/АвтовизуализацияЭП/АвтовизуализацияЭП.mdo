@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4597ca4-cf96-4ec1-9cc0-0b78db00d4f7">
+  <producedTypes>
+    <managerType typeId="ab6d3bd1-8b38-4e12-a142-eee51e5b4594" valueTypeId="ab734e74-e1fd-474e-baee-0c2e8b55f932"/>
+    <valueManagerType typeId="df9d5bce-9868-4630-a1e2-9b8d6261fe97" valueTypeId="7a4ecad4-7e95-499d-a636-3a22aff0b14b"/>
+    <valueKeyType typeId="73f85271-0dda-5fd8-b67d-b879ee042d71" valueTypeId="a110079e-2f27-5167-a552-7f8836770263"/>
+  </producedTypes>
+  <name>АвтовизуализацияЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автовизуализация ЭП</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

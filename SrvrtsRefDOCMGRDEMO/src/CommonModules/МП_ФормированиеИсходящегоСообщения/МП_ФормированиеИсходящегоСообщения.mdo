@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b07c332f-0bf4-4a59-a277-61af76e2e1e5">
+  <name>МП_ФормированиеИсходящегоСообщения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение. Формирование исходящего сообщения</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

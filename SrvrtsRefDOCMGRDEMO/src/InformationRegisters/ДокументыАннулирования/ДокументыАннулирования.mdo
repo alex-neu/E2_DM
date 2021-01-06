@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e21c1b3-9659-4791-a2ff-c2fc50a9972a">
+  <producedTypes>
+    <selectionType typeId="69547ada-fe8a-422e-a01c-5929bc4124b6" valueTypeId="355693f2-86c0-49ad-861c-d4a3ad392e68"/>
+    <listType typeId="a4282d58-5cc9-4612-ae65-dcc26f286a43" valueTypeId="c5726bb5-5bd4-45ba-9c49-b8e5daa5bbd0"/>
+    <managerType typeId="c606db67-1c23-4e89-b64c-e31b605a4bfd" valueTypeId="472ac0b8-8b62-4fa1-b894-2fb46abff7f4"/>
+    <recordSetType typeId="2d7df27d-1865-43a0-8a63-503ba9d779ed" valueTypeId="1ede56d3-dd0c-4113-9638-040600b4de52"/>
+    <recordKeyType typeId="9a664f3f-7a9e-414d-8d1d-cf013c197ab9" valueTypeId="5d019567-1122-48bd-abcb-255b59479ec4"/>
+    <recordType typeId="6eb22c51-1404-4d87-8b1c-cfe5bc2e3722" valueTypeId="86bd0504-cf17-4eae-9882-803c9510838f"/>
+    <recordManagerType typeId="d549ccd3-ce09-4d75-bf01-b7b952f8290e" valueTypeId="c6878ef0-7fa1-4dbe-aaa2-b7ff90d84600"/>
+  </producedTypes>
+  <name>ДокументыАннулирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы аннулирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c14f9ad-88bd-4f5a-b1ea-657397c2d5c4">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="61878f61-349b-4d3b-ba67-c3861d7c5448">
+    <name>СоглашениеОбАннулировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соглашение об аннулировании</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2263b5b1-ec21-46e6-a62d-3d6e7bc5124f">
+    <name>ФайлСоглашенияОбАннулировании</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл соглашения об аннулировании</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Файлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1e2a8db0-c98d-4d91-a171-95eba93d202e">
+    <name>ЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭД</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭлектронныйДокументВходящий</types>
+      <types>DocumentRef.ЭлектронныйДокументИсходящий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

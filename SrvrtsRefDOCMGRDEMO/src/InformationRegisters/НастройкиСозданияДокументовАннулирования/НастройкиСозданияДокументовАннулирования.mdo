@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0f04633-0b3d-4ed0-86b0-83f82a6a1ded">
+  <producedTypes>
+    <selectionType typeId="74a209eb-6077-4c48-92cf-eebfe2f6dd26" valueTypeId="fcc11537-4b4d-4054-b622-3f9550f9c827"/>
+    <listType typeId="b65fb7d0-b6e0-4d6f-8ffb-469d117ca773" valueTypeId="010e7236-89eb-4a22-92a2-e0ed5754564e"/>
+    <managerType typeId="bcd87bd8-e0bb-43a5-a9fc-dd6f046194e3" valueTypeId="6cb194ce-6e60-4692-840b-bea79e8d95e0"/>
+    <recordSetType typeId="5435eb0a-5966-498c-9604-fec8e6430c20" valueTypeId="bb0db4ff-2cf1-4f01-b62d-98660e52cb40"/>
+    <recordKeyType typeId="d808f256-4dd7-4ecc-8332-8f03be9a02e0" valueTypeId="d0e35551-ff47-43f9-bb2c-60d3f462e434"/>
+    <recordType typeId="d0e63147-9c96-4a4f-a0c7-daa9e5cf0fb5" valueTypeId="e7afcdf2-2e74-4fdd-ae56-bea4f13844c9"/>
+    <recordManagerType typeId="8d13f837-3163-4ed5-a583-2ae1902cb651" valueTypeId="b3b5d16c-c756-4bcb-9b21-beb77f785ca8"/>
+  </producedTypes>
+  <name>НастройкиСозданияДокументовАннулирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки создания документов аннулирования</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9de15a79-bb9f-4789-8c08-e95a0eb60a5e">
+    <name>ВидДокументаАннулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа аннулирования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВнутреннихДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="826f1e0e-bdb1-409d-9ddb-59f238e095ef">
+    <name>ВопросДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вопрос деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВопросыДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b26914e-75e7-49a4-803c-4875daa653ab">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="087b2d00-eeeb-47be-9ef1-5b7fad50fc2a">
+    <name>Папка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Папка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПапкиВнутреннихДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92427722-a509-4aab-8b87-6dd004905db5">
+    <name>ШаблонНаименования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон наименования</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="c63957f6-f19f-4618-bc8c-046651aa3104">
+    <name>ШаблонСодержания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон содержания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="56c9be1f-b803-42f9-b8d3-d0a296843600">
+    <name>ВидДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид документа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыВнутреннихДокументов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ddb4b5fa-846e-49d2-9d80-6cce993336ef">
+    <name>Направление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НаправленияЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="80f9b3ce-974b-493e-9774-d2d12cec5045">
+    <name>НастройкаСозданияДокументаАннулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка создания документа аннулирования</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

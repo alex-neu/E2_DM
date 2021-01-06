@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b1acbca-e06e-4eba-acef-6e0cbd345309">
+  <name>Обсуждения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обсуждения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.ОбсужденияДокументооборот</content>
+  <content>CommonModule.ОбсужденияДокументооборотВызовСервера</content>
+  <content>CommonModule.ОбсужденияДокументооборотКлиент</content>
+  <content>CommonModule.ОбсужденияДокументооборотКлиентПовтИсп</content>
+  <content>EventSubscription.АвтообновлениеОбсужденийПередЗаписьюОбъекта</content>
+  <content>EventSubscription.АвтообновлениеОбсужденийПередЗаписьюРегистра</content>
+  <content>EventSubscription.АвтообновлениеОбсужденийПриЗаписиОбъекта</content>
+  <content>EventSubscription.АвтообновлениеОбсужденийПриЗаписиРегистра</content>
+  <content>CommonCommand.ОбсуждениеВАвтообновляемомЧатеБезНижестоящих</content>
+  <content>CommonCommand.ОбсуждениеВАвтообновляемомЧатеСНижестоящими</content>
+  <content>CommonPicture.Обсуждение</content>
+  <content>InformationRegister.ОчередьОбновленияОбсуждений</content>
+  <content>ScheduledJob.АктуализироватьСоставАвтообсуждений</content>
+  <content>ScheduledJob.ОбновлениеОбсуждений</content>
+  <content>Enum.ЗаданияОчередиОбновленияОбсуждений</content>
+  <content>Catalog.КаналыОбсуждений</content>
+  <content>Constant.ОбсужденияПодключены</content>
+  <content>FunctionalOption.ОбсужденияПодключены</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

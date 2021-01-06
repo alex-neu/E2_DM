@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="020c84d8-76ab-4b81-bbbc-a6af1ca1c0d9">
+  <name>ПрикладноеПредставлениеРеквизитов_en</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прикладное представление реквизитов en</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Application submission details</value>
+  </synonym>
+</mdclass:CommonTemplate>

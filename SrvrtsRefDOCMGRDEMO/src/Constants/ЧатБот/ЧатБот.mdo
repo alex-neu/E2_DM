@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9ead09a-b09a-483d-814b-826c4388fc52">
+  <producedTypes>
+    <managerType typeId="289255e5-c189-492e-b2c1-a62b8352093b" valueTypeId="95f9635b-b3d5-4a4d-84ed-eb476706b792"/>
+    <valueManagerType typeId="f6c7b2f2-b9d7-4e5b-8cdb-328a3ff3584c" valueTypeId="56d1d41c-bcfb-48be-8e28-3298f73ee8da"/>
+    <valueKeyType typeId="6f0ca605-4c16-41ce-83ec-e088d77730f4" valueTypeId="0a66b056-ba1e-44de-9713-3c073d170e85"/>
+  </producedTypes>
+  <name>ЧатБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат-бот</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Пользователи</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Пользователь, от чьего имени будет писать чат-бот</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

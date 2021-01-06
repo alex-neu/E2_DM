@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d345934-1367-4147-8ab0-a8cb2405f8ea">
+  <producedTypes>
+    <selectionType typeId="30e2c454-0b1b-4bda-82e5-94323669e4aa" valueTypeId="a8ad1749-9991-4823-ad90-354cc1f3cf4c"/>
+    <listType typeId="a3c64cfc-283d-4919-8fe7-999f12dd19dc" valueTypeId="3ae85e65-b6ab-461b-8988-a3c4a53f2d85"/>
+    <managerType typeId="833118f9-34b3-4ac6-8aed-591f5035ed17" valueTypeId="3a3189c8-9e51-4d2a-92bf-9897503fdacb"/>
+    <recordSetType typeId="7e5a5a98-df55-444b-828f-c037803ec0d7" valueTypeId="75212a0e-4796-4646-998e-58895c428aa8"/>
+    <recordKeyType typeId="0c0d2d18-94bf-460c-958e-3ce779febd2a" valueTypeId="b0e203f4-f8ad-47af-aca3-def1cc67aeda"/>
+    <recordType typeId="e37bd7dd-28ef-4a76-98a8-875074830924" valueTypeId="bb6568f4-c936-4710-9aa8-e8195b13daed"/>
+    <recordManagerType typeId="70378b21-65d3-4e4d-8464-07261a7c14f2" valueTypeId="93196bd4-79b8-44d0-8739-e1efff0cdb58"/>
+  </producedTypes>
+  <name>ИсторияБеседСЧатБотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>История бесед с чат-ботом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ИсторияБеседСЧатБотом.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ИсторияБеседСЧатБотом.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a715bdec-d704-491b-8970-82e26242497e">
+    <name>СообщениеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение пользователя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="3b2cd3ee-145d-4eb0-b012-743819ac1e27">
+    <name>СообщениеБота</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение бота</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ee63caa6-015b-472f-8681-fa6ad216b2b8">
+    <name>СостояниеИз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние из</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЧатБота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="713fa8d5-6f4a-406a-9b45-ec262ac9e230">
+    <name>СостояниеВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние В</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостоянияЧатБота</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ad8cf31d-55f2-4098-b070-e7825e5389e4">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="04056beb-1ba8-42b4-9a2f-c0a5f73f21b9">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5c812673-3d0a-40f1-a5ee-2c0a540acfa8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

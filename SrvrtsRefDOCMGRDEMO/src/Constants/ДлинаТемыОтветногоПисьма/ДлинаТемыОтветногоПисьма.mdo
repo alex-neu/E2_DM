@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09e8a060-10e5-4920-a0f8-42de695815d7">
+  <producedTypes>
+    <managerType typeId="d04a2f3c-666f-4c55-be73-a6006839314f" valueTypeId="fbdbdb2d-d0fd-41e5-91da-af0a11fb8bd3"/>
+    <valueManagerType typeId="9b885793-945e-4cc2-aa3b-50957ce68b3f" valueTypeId="c756af29-7ef3-4b54-b276-562346fae477"/>
+    <valueKeyType typeId="47f00f25-39b4-507e-96a1-62dd8cf81648" valueTypeId="56e3ee48-6ec1-5400-b1f6-698531af521f"/>
+  </producedTypes>
+  <name>ДлинаТемыОтветногоПисьма</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длина темы ответного письма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:StringValue">
+    <value>100</value>
+  </minValue>
+  <maxValue xsi:type="core:StringValue">
+    <value>1000</value>
+  </maxValue>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

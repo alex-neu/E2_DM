@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5f9cdc2-a204-4754-93ac-cd4dcad07569">
+  <name>ЧатБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат-бот</value>
+  </synonym>
+</mdclass:Role>

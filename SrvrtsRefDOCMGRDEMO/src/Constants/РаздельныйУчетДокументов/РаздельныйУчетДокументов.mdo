@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4fabaeaa-13cd-4305-9231-955f29323df7">
+  <producedTypes>
+    <managerType typeId="83eb71f9-1cb1-4e3e-acba-f065ae89d922" valueTypeId="8c282d41-f358-4b54-bdee-d73928888d33"/>
+    <valueManagerType typeId="2e91b3e5-a04f-4033-aba6-989eb308778e" valueTypeId="92956442-e210-4a6e-b7f5-beec9f22392e"/>
+    <valueKeyType typeId="9ae172d0-8d0a-4492-8da4-d0b4836a01a5" valueTypeId="d20ea033-0ac7-4154-a0e4-04ecb713e53b"/>
+  </producedTypes>
+  <name>РаздельныйУчетДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздельный учет бумажных и электронных документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

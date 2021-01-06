@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="804237db-28e5-493b-ad7e-24816de0058c">
+  <producedTypes>
+    <selectionType typeId="d4aa41cf-78c9-4e23-bf84-6700866f031c" valueTypeId="8418419e-91bb-496a-aba1-78c4352ea7ac"/>
+    <listType typeId="3fa53687-b729-4d21-b8a6-9b7be553c2f7" valueTypeId="59013897-d8c1-41d3-b6ff-9217a7c9a68a"/>
+    <managerType typeId="9be388b5-e125-4135-b3d6-089a46aa1b39" valueTypeId="b4b1b310-f547-4663-8ed0-a166d7171d20"/>
+    <recordSetType typeId="d122a7ab-5614-4eed-a4ef-3c0fda905042" valueTypeId="9db29ae9-5de0-4532-9de1-5bb3e0374e14"/>
+    <recordKeyType typeId="221678bf-69f0-47d8-bceb-f9c107308ef6" valueTypeId="2d55d48b-8ca4-4e5c-b022-93bb3f0605c9"/>
+    <recordType typeId="d166ea2e-d2d2-470b-b2cb-c72fdbc0fa6f" valueTypeId="8007f857-1b15-4a52-b24f-1f224fd25de7"/>
+    <recordManagerType typeId="64ecc05b-833c-4a54-bf97-70853120fdc7" valueTypeId="e888b78f-60e6-41f0-9443-704606506c7b"/>
+  </producedTypes>
+  <name>ОшибкиЭДОКИсправлению</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки ЭДО к исправлению</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОшибкиЭДОКИсправлению.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5e78799e-05f6-4da2-9ae6-b0201c1a6544">
+    <name>НастройкиЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки ЭДО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УдалитьСоглашенияОбИспользованииЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5cec11fd-5bac-425a-b1d6-3d824334da38">
+    <name>ГруппироватьУведомленияПоНастройкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группировать уведомления по настройкам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8241c9a7-ac43-4e88-955e-db942bd058b4">
+    <name>УведомлениеОтправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление отправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e19cdbef-de62-4ff7-b6ee-2d8f68105d4c">
+    <name>ОписаниеПроблемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание проблемы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="66862cbd-6ad3-43d7-8903-92c60a77cc0f">
+    <name>ПредметОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предмет ошибки</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЭлектронныйДокументВходящий</types>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="081ddd49-0a16-4cb4-9ff1-f722d55e1d53">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c397de9a-dfce-4e1f-8e8e-3c6fcfe0929a">
+    <name>ФормаОшибокПриОбменеЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки при обмене ЭДО</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="119c6422-3db4-48fa-974a-5d83e925450d">
+    <name>ОшибкиПриОбменеЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки при обмене ЭДО</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

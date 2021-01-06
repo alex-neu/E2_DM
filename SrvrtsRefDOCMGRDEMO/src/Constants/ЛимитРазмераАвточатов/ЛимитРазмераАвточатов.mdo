@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57e4e8a4-69f0-4506-a6d4-966b2dc60496">
+  <producedTypes>
+    <managerType typeId="a3a68832-6c06-40a6-b329-c973d7e011fe" valueTypeId="94e44cdf-81e1-4524-a765-e00fb5d6bfb2"/>
+    <valueManagerType typeId="cee77c91-46ef-4edf-a120-1b462daed433" valueTypeId="d62e0ed6-0b7b-400d-8739-870ef7c465bf"/>
+    <valueKeyType typeId="5337994f-fa6a-415d-a48d-d29624011da3" valueTypeId="dffa2f72-d583-41a6-b7d7-ff9535f2ebde"/>
+  </producedTypes>
+  <name>ЛимитРазмераАвточатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лимит размера авточатов</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

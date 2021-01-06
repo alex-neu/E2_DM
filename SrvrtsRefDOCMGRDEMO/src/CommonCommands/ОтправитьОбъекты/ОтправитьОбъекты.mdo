@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7866f152-1ba5-43d0-b5ae-054cbc07efa5">
+  <name>ОтправитьОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить...</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.УведомленияПрограммы</types>
+    <types>CatalogRef.ТемыОбсуждений</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.ВходящееПисьмо</types>
+    <types>DocumentRef.ИсходящееПисьмо</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ВходящиеДокументы</types>
+    <types>DocumentRef.Бронь</types>
+    <types>CatalogRef.ВнутренниеДокументы</types>
+    <types>CatalogRef.СообщенияОбсуждений</types>
+    <types>CatalogRef.ИсходящиеДокументы</types>
+    <types>CatalogRef.Мероприятия</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

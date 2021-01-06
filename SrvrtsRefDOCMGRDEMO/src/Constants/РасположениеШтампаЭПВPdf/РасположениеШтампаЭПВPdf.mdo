@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bba1f8bf-94cf-4f08-819b-1d55f639b0bc">
+  <producedTypes>
+    <managerType typeId="c1727b44-44ad-4f06-9d72-8812d812706b" valueTypeId="6f24351d-e0a5-49ce-8d9d-4db58faa5cb0"/>
+    <valueManagerType typeId="817efa65-8518-4297-84ae-918ea10eda7a" valueTypeId="88be267c-834a-4a23-8a3d-75d7f6acb866"/>
+    <valueKeyType typeId="cc2509b8-89aa-56cc-90c5-87b8c5732117" valueTypeId="9fe99f7b-c064-5498-a9ea-cb194fd960ed"/>
+  </producedTypes>
+  <name>РасположениеШтампаЭПВPdf</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расположение штампа ЭПВPdf</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ВариантыПечатиШтампаЭП</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

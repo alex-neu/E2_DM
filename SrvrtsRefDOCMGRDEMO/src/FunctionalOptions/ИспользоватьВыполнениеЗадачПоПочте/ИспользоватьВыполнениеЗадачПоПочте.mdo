@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7c68cd3-518c-4faa-9a09-319793f2e5bf">
+  <name>ИспользоватьВыполнениеЗадачПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать выполнение задач по почте</value>
+  </synonym>
+  <location>Constant.ИспользоватьВыполнениеЗадачПоПочте</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

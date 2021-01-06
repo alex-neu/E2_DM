@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="555f5b90-3b5c-496c-a239-5bfe13044279">
+  <name>ЭД_ИдентификаторДокумента_en</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЭД идентификатор документа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>ED document idenfidier</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0822968e-171d-461b-86f8-bfdf0a55780d">
+  <producedTypes>
+    <managerType typeId="54cf56c7-286c-4366-847e-a9e8acbbd61f" valueTypeId="283c91ad-d0c3-4660-8ac0-ed31791fee40"/>
+    <valueManagerType typeId="be6f3ae5-a2d3-40d6-ac39-babfd9f21f5d" valueTypeId="acda4074-8a63-4d1d-9600-ae21b8f86543"/>
+    <valueKeyType typeId="9b528a1d-2cd7-49b8-9099-a745b73b11c7" valueTypeId="d54ddf18-2cde-49cf-a83e-a1ec591b749a"/>
+  </producedTypes>
+  <name>ГраницаОтключенияНачалаАвтораспознаванияВСервисе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Граница отключения начала автораспознавания в сервисе</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>4</precision>
+    </numberQualifiers>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

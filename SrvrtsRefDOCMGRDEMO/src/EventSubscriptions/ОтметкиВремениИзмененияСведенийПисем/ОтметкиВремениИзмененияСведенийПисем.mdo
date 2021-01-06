@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f50d4635-c939-4677-b9eb-156202c85d5e">
+  <name>ОтметкиВремениИзмененияСведенийПисем</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки времени изменения сведений писем</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.СвязиДокументов</types>
+    <types>InformationRegisterRecordSet.СведенияОПрочтении</types>
+    <types>InformationRegisterRecordSet.ФлагиОбъектов</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОтметкиВремениСобытия.ОтметкиВремениИзмененияСведенийПисем</handler>
+</mdclass:EventSubscription>

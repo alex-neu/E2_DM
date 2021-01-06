@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c96a843-6238-443a-b382-fa99fe8c0887">
+  <producedTypes>
+    <refType typeId="96ac1f17-1b8b-4add-be53-adbbbe7f0608" valueTypeId="1a25086b-17db-4b51-9145-8f95bf072e49"/>
+    <listType typeId="a2b2cb85-514d-43cc-b246-9809f71c95e4" valueTypeId="23d22b54-9443-4186-8afb-e7369b088cbd"/>
+    <managerType typeId="458e5308-dcf3-47fc-bb7c-faf57c5f0e3c" valueTypeId="ad01fd28-273a-4931-9ef4-05fcf0e85e1f"/>
+  </producedTypes>
+  <name>ВариантыПечатиШтампаЭП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты печати штампа ЭП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c4319e9e-5eb0-4b1b-9d52-369ee747ec43">
+    <name>ЛевыйВерхний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Левый верхний угол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68310c5a-5946-4a76-b1a9-d5567a465d90">
+    <name>ЛевыйНижний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Левый нижний угол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3596542d-f8d3-4947-b0c5-9cb3fb4d5042">
+    <name>ПравыйВерхний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правый верхний угол</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60a2a9f5-d929-403e-b310-65cb6f36bfe0">
+    <name>ПравыйНижний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правый нижний угол</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5797fb6b-8887-4b7d-b829-fae0adbe1087">
+  <name>ЧатБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Чат-бот</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonModule.РаботаСЧатБотомВызовСервера</content>
+  <content>CommonModule.РаботаСЧатБотомГлобальный</content>
+  <content>CommonModule.РаботаСЧатБотомКлиент</content>
+  <content>CommonModule.РаботаСЧатБотомКлиентСервер</content>
+  <content>CommonModule.РаботаСЧатБотом</content>
+  <content>CommonModule.РаботаСЧатБотомПовтИсп</content>
+  <content>Constant.ЧатБот</content>
+  <content>Constant.ИспользоватьЧатБота</content>
+  <content>Constant.ПервоеСообщениеЧатБота</content>
+  <content>Catalog.СостоянияЧатБота</content>
+  <content>Catalog.ВычисляемыеПараметрыЧатБота</content>
+  <content>InformationRegister.ИсторияБеседСЧатБотом</content>
+  <content>Enum.ТипыСостоянийЧатБота</content>
+  <parentSubsystem>Subsystem.НастройкаИАдминистрирование</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a385b7f-61f6-4f88-b69f-dd1ea10631c4">
+  <producedTypes>
+    <managerType typeId="e9efa5f8-824f-4af9-a2d7-934cc61b44e3" valueTypeId="b66bdc5e-b2b5-4854-b14d-ef381b9a917f"/>
+    <valueManagerType typeId="c262d828-42d7-49f3-a2ec-1d4f29ee3d62" valueTypeId="b6efda26-ea98-4b6c-917a-0a8a403cf38a"/>
+    <valueKeyType typeId="d198018b-e051-410e-ac1c-8d4bb6232234" valueTypeId="98e2b470-7e68-4115-9789-63f66d28db91"/>
+  </producedTypes>
+  <name>ИспользоватьМестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать места хранения</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

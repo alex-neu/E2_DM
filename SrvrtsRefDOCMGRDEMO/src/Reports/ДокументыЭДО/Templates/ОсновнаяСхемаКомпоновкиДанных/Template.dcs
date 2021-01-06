@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Документ</dataPath>
+			<field>Документ</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВидДокумента</dataPath>
+			<field>ВидДокумента</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Дата</dataPath>
+			<field>Дата</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата документа</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Номер</dataPath>
+			<field>Номер</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Организация</dataPath>
+			<field>Организация</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Контрагент</dataPath>
+			<field>Контрагент</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Подразделение</dataPath>
+			<field>Подразделение</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ответственный</dataPath>
+			<field>Ответственный</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Сумма</dataPath>
+			<field>Сумма</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Количество</dataPath>
+			<field>Количество</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Количество</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентПодписал</dataPath>
+			<field>КонтрагентПодписал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписал от контрагента</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияПодписал</dataPath>
+			<field>ОрганизацияПодписал</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписал от организации</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОрганизацияПодписан</dataPath>
+			<field>ОрганизацияПодписан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписан организацией</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КонтрагентПодписан</dataPath>
+			<field>КонтрагентПодписан</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подписан контрагентом</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаСостоянияЭДО</dataPath>
+			<field>ДатаСостоянияЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата состояния ЭДО</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">15</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>НаправлениеЭДО</dataPath>
+			<field>НаправлениеЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Направление ЭДО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КомментарийЭДО</dataPath>
+			<field>КомментарийЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий ЭДО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СогласованыйФорматДокументаЭДО</dataPath>
+			<field>СогласованыйФорматДокументаЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Формат обмена ЭДО</v8:content>
+				</v8:item>
+			</title>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Размещение</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Cut</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументЭДО</dataPath>
+			<field>ДокументЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Данные обмена ЭДО</v8:content>
+				</v8:item>
+			</title>
+			<presentationExpression>ДокументЭДО.Номер</presentationExpression>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеЭДОГруппа</dataPath>
+			<field>СостояниеЭДОГруппа</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа состояния ЭДО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеЭДОПредставлениеОрганизация</dataPath>
+			<field>СостояниеЭДОПредставлениеОрганизация</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние ЭДО</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">18</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СостояниеВерсииЭДО</dataPath>
+			<field>СостояниеВерсииЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние версии ЭДО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СоглашениеЭДО</dataPath>
+			<field>СоглашениеЭДО</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Соглашение ЭДО</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументКорректировочный</dataPath>
+			<field>ДокументКорректировочный</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ корректировочный</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДокументОснование</dataPath>
+			<field>ДокументОснование</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Документ основание</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	ЗНАЧЕНИЕ(Перечисление.СостоянияВерсийЭДДО.ПустаяСсылка) КАК Состояние,
+	ЗНАЧЕНИЕ(Перечисление.НаправленияЭД.ПустаяСсылка) КАК Направление,
+	ВЫРАЗИТЬ("" КАК СТРОКА(50)) КАК ПредставлениеГруппы,
+	ВЫРАЗИТЬ("" КАК СТРОКА(50)) КАК ПредставлениеОрганизация,
+	ВЫРАЗИТЬ("" КАК СТРОКА(50)) КАК ПредставлениеКонтрагент
+ПОМЕСТИТЬ ПредставленияСостоянийЭДО
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ
+	Документы.Документ КАК Документ,
+	Документы.ВидДокумента КАК ВидДокумента,
+	Документы.ДатаСортировки КАК Дата,
+	Документы.РегистрационныйНомер КАК Номер,
+	Документы.Организация КАК Организация,
+	ДокументыСтороныОрганизации.Подписан КАК ОрганизацияПодписан,
+	ДокументыСтороныОрганизации.Подписал КАК ОрганизацияПодписал,
+	ВЫРАЗИТЬ(ДокументыСтороныКонтрагенты.Сторона КАК Справочник.Контрагенты) КАК Контрагент,
+	ДокументыСтороныКонтрагенты.Подписан КАК КонтрагентПодписан,
+	ДокументыСтороныКонтрагенты.Подписал КАК КонтрагентПодписал,
+	Документы.Подразделение КАК Подразделение,
+	Документы.Ответственный КАК Ответственный,
+	ЕСТЬNULL(СостоянияЭДО.Период, Документы.ДатаСортировки) КАК ДатаСостоянияЭДО,
+	ЕСТЬNULL(СостоянияЭДОПредставления.ПредставлениеОрганизация, &amp;ПредставлениеСостояниеЭДОНеНачатоОрганизация) КАК СостояниеЭДОПредставлениеОрганизация,
+	ЕСТЬNULL(СостоянияЭДОПредставления.ПредставлениеГруппы, &amp;ПредставлениеСостояниеЭДОНеНачатоОрганизация) КАК СостояниеЭДОГруппа,
+	ЕСТЬNULL(СостоянияЭДО.СостояниеВерсииДокументаПоЭДО, ЗНАЧЕНИЕ(Перечисление.СостоянияВерсийЭДДО.НеСформирован)) КАК СостояниеВерсииЭДО,
+	ЕСТЬNULL(СостоянияЭДО.НаправлениеЭД, ЗНАЧЕНИЕ(Перечисление.НаправленияЭД.Исходящий)) КАК НаправлениеЭДО,
+	СостоянияЭДО.Комментарий КАК КомментарийЭДО,
+	СоглашенияЭДОКонтрагенты.Ссылка КАК СоглашениеЭДО,
+	ЕСТЬNULL(ДанныеЭДО.ЭлектронныйДокумент.ВидЭД, ВидыДокументовЭДО.ВидЭД) КАК СогласованыйФорматДокументаЭДО,
+	ДокументыКорректировки.Документ КАК ДокументКорректировочный,
+	ДокументыОснования.СвязанныйДокумент КАК ДокументОснование,
+	ДанныеЭДО.ЭлектронныйДокумент КАК ДокументЭДО,
+	Документы.Сумма КАК Сумма,
+	1 КАК Количество
+ИЗ
+	РегистрСведений.ДанныеВнутреннихДокументов КАК Документы
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.ВнутренниеДокументы.Стороны КАК ДокументыСтороныКонтрагенты
+		ПО Документы.Документ = ДокументыСтороныКонтрагенты.Ссылка
+			И (ДокументыСтороныКонтрагенты.Сторона ССЫЛКА Справочник.Контрагенты)
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ВнутренниеДокументы.Стороны КАК ДокументыСтороныОрганизации
+		ПО Документы.Документ = ДокументыСтороныОрганизации.Ссылка
+			И Документы.Организация = ДокументыСтороныОрганизации.Сторона}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеДокументовПоЭДО КАК СостоянияЭДО
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеДокументовПоЭДО КАК СостоянияЭДОПоследние
+			ПО СостоянияЭДО.ДокументДО = СостоянияЭДОПоследние.ДокументДО
+				И СостоянияЭДО.Период &lt; СостоянияЭДОПоследние.Период
+		ПО Документы.Документ = СостоянияЭДО.ДокументДО
+			И (СостоянияЭДОПоследние.Период ЕСТЬ NULL)
+		ЛЕВОЕ СОЕДИНЕНИЕ ПредставленияСостоянийЭДО КАК СостоянияЭДОПредставления
+		ПО (СостоянияЭДО.СостояниеВерсииДокументаПоЭДО = СостоянияЭДОПредставления.Состояние)
+			И (СостоянияЭДО.НаправлениеЭД = СостоянияЭДОПредставления.Направление)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПравилаУчетаВидовЭДДО КАК ВидыДокументовЭДО
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.СоглашенияОбИспользованииЭД КАК СоглашенияЭДОКонтрагенты
+			ПО ВидыДокументовЭДО.Контрагент = СоглашенияЭДОКонтрагенты.Контрагент
+				И (СоглашенияЭДОКонтрагенты.СостояниеСоглашения &lt;&gt; ЗНАЧЕНИЕ(Перечисление.СостоянияСоглашенийЭД.Закрыто))
+		ПО Документы.ВидДокумента = ВидыДокументовЭДО.ВидДокумента
+			И (ДокументыСтороныКонтрагенты.Сторона = ВидыДокументовЭДО.Контрагент)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Файлы КАК ФайлыОтправкиЭДО
+			ВНУТРЕННЕЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияЭД КАК ДанныеЭДО
+			ПО ФайлыОтправкиЭДО.ТекущаяВерсия = ДанныеЭДО.СсылкаНаОбъект
+		ПО Документы.Документ = ФайлыОтправкиЭДО.ВладелецФайла
+			И (НЕ ФайлыОтправкиЭДО.ПометкаУдаления)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязиДокументов КАК ДокументыКорректировки
+			ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязиДокументов КАК ДокументыКорректировкиПоследние
+			ПО ДокументыКорректировки.Документ = ДокументыКорректировкиПоследние.СвязанныйДокумент
+				И (ДокументыКорректировкиПоследние.ТипСвязи В (ЗНАЧЕНИЕ(Справочник.ТипыСвязей.КорректировкаК), ЗНАЧЕНИЕ(Справочник.ТипыСвязей.ИсправлениеК)))
+				И ДокументыКорректировки.ДатаУстановки &lt; ДокументыКорректировкиПоследние.ДатаУстановки
+		ПО Документы.Документ = ДокументыКорректировки.СвязанныйДокумент
+			И (ДокументыКорректировки.ТипСвязи В (ЗНАЧЕНИЕ(Справочник.ТипыСвязей.КорректировкаК), ЗНАЧЕНИЕ(Справочник.ТипыСвязей.ИсправлениеК)))
+			И (ДокументыКорректировкиПоследние.ДатаУстановки ЕСТЬ NULL)}
+		{ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СвязиДокументов КАК ДокументыОснования
+		ПО Документы.Документ = ДокументыОснования.Документ
+			И (ДокументыОснования.ТипСвязи В (ЗНАЧЕНИЕ(Справочник.ТипыСвязей.КорректировкаК), ЗНАЧЕНИЕ(Справочник.ТипыСвязей.ИсправлениеК)))}
+{ГДЕ
+	(Документы.ДатаСортировки МЕЖДУ &amp;ДатаСозданияНачало И &amp;ДатаСозданияОкончание),
+	(ЕСТЬNULL(СостоянияЭДО.Период, Документы.ДатаСортировки) МЕЖДУ &amp;ДатаСостоянияНачало И &amp;ДатаСостоянияОкончание),
+	(СостоянияЭДО.СостояниеВерсииДокументаПоЭДО В (&amp;ОтборСостояниеЭДО)),
+	(СостоянияЭДО.СостояниеВерсииДокументаПоЭДО ЕСТЬ НЕ NULL 
+			ИЛИ ВидыДокументовЭДО.ВидЭД ЕСТЬ НЕ NULL 
+				И Документы.РегистрационныйНомер &lt;&gt; ""
+				И НЕ Документы.ПометкаУдаления
+				И &amp;ОтборДокументыЭДО),
+	(СостоянияЭДО.СостояниеВерсииДокументаПоЭДО ЕСТЬ NULL
+			И ВидыДокументовЭДО.ВидЭД ЕСТЬ НЕ NULL 
+			И Документы.РегистрационныйНомер &lt;&gt; ""
+			И НЕ Документы.ПометкаУдаления
+			И &amp;ОтборДокументыЭДОНеНачато)}</query>
+	</dataSet>
+	<totalField>
+		<dataPath>Сумма</dataPath>
+		<expression>Сумма(Сумма)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>Количество</dataPath>
+		<expression>Количество(Различные Документ)</expression>
+	</totalField>
+	<parameter>
+		<name>ПериодСоздания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата документа</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ПериодСостояния</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата состояния ЭДО</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<parameter>
+		<name>ДатаСозданияНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата создания начало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодСоздания.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаСозданияОкончание</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата создания окончание</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодСоздания.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаСостоянияНачало</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата состояния начало</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодСостояния.ДатаНачала</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ДатаСостоянияОкончание</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата состояния окончание</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;ПериодСостояния.ДатаОкончания</expression>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ОтборДокументыЭДО</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отбор документы ЭДО</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ПредставлениеСостояниеЭДОНеНачатоОрганизация</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Представление состояние ЭДОНе начато организация</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:string</v8:Type>
+			<v8:StringQualifiers>
+				<v8:Length>50</v8:Length>
+				<v8:AllowedLength>Variable</v8:AllowedLength>
+			</v8:StringQualifiers>
+		</valueType>
+		<value xsi:type="xs:string"/>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ОтборСостояниеЭДО</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отбор состояние ЭДО</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type xmlns:d4p1="http://v8.1c.ru/8.1/data/enterprise/current-config">d4p1:EnumRef.СостоянияВерсийЭДДО</v8:Type>
+		</valueType>
+		<useRestriction>true</useRestriction>
+		<valueListAllowed>true</valueListAllowed>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<parameter>
+		<name>ОтборДокументыЭДОНеНачато</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отбор документы ЭДОНе начато</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:boolean</v8:Type>
+		</valueType>
+		<value xsi:type="xs:boolean">false</value>
+		<useRestriction>true</useRestriction>
+		<availableAsField>false</availableAsField>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>Основной</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Документы ЭДО</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Документ</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВидДокумента</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Номер</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Организация</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Контрагент</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ответственный</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Подразделение</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СостояниеЭДОПредставлениеОрганизация</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДатаСостоянияЭДО</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дата</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>КомментарийЭДО</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Комментарий</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Количество</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Сумма</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">СостояниеЭДОПредставлениеОрганизация</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>5db320b0-ce3a-4845-aa42-21e61e1d37b4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">НаправлениеЭДО</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>bdbf7379-c15b-4dff-a091-c79d268741aa</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ВидДокумента</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>804b913e-f349-44cf-a797-d768af3b74a4</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Организация</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>20ae5c3a-4632-4976-97a7-bfb2bacaf9c9</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Контрагент</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>fda25d36-c24b-4739-8e0e-2713725e9cda</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Подразделение</dcsset:left>
+					<dcsset:comparisonType>InHierarchy</dcsset:comparisonType>
+					<dcsset:userSettingID>f3f741f0-24ce-4287-8deb-8669c9396078</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ПериодСоздания</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisMonth</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>29bf66df-efc2-44d6-83b8-6e2d78a8bbef</dcsset:userSettingID>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:use>false</dcscor:use>
+					<dcscor:parameter>ПериодСостояния</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</dcscor:value>
+					<dcsset:userSettingID>76c536eb-4293-4f08-90d8-4948738cf5aa</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:order>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Дата</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:OrderItemField">
+					<dcsset:field>Документ</dcsset:field>
+					<dcsset:orderType>Asc</dcsset:orderType>
+				</dcsset:item>
+			</dcsset:order>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Документы ЭДО</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemAuto"/>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

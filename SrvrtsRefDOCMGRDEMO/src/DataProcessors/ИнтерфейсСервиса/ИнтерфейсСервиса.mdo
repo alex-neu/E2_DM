@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54d79a59-d402-4451-8f2a-298c59ba206d">
+  <producedTypes>
+    <objectType typeId="94a2db4e-0f96-4236-bbf8-d00d2b1e9f4e" valueTypeId="5da208a0-52a6-4298-a130-af03c72e17d1"/>
+    <managerType typeId="d93fc237-683a-46a3-a0e8-81672c1fc2ed" valueTypeId="0f148c0a-8e05-4e11-88d9-934f61f870ab"/>
+  </producedTypes>
+  <name>ИнтерфейсСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс сервиса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ИнтерфейсСервиса.Form.Форма</defaultForm>
+  <forms uuid="c0ae05ef-34d3-41d7-971e-293f5ccba0e9">
+    <name>МойАбонент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мой абонент</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1e79d491-a577-4430-bc3b-cd0e54c23472">
+    <name>МоиПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="11960858-d864-475a-9801-ed7860552e55">
+    <name>Приложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6526d86a-ade0-46b4-8b70-9a0c95f406c0">
+    <name>ДобавлениеПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bf5c36a6-c092-4d5e-b41d-36ab81786fbd">
+    <name>ДобавлениеПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление пользователя</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f56302cd-182c-46fa-9fe5-b8a0af996284">
+    <name>ПользователиАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи абонента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="eb3a02d9-8f13-41a7-a8a7-7e579f413185">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3ebd2cc3-7d18-4e9f-88a3-596aa6bbdd7d">
+    <name>АктивироватьПромокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активировать промокод</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5feb4f83-7a00-4b91-892d-ac3361eb8825">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2a02a3cc-cbee-4bec-8b75-f68e6c4649af">
+    <name>МойАбонент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мой абонент</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="66cfcb8d-8d48-476d-92a3-6a2474a4f051">
+    <name>МоиПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои приложения</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="06d0a338-e2a7-4f78-a5cd-c6924b48c7ff">
+    <name>ПользователиАбонента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователи абонента</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="fea9013e-bdc4-4d05-90b0-461c13abf419">
+    <name>АктивироватьПромокод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активировать промокод</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

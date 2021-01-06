@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e78b346c-0032-482c-ae43-81167cefa24c">
+  <producedTypes>
+    <refType typeId="21308665-85bf-40b3-8c86-d2af6c66428e" valueTypeId="7f0e1fac-d38b-45b3-8c21-0bcaa48570f1"/>
+    <listType typeId="e27c470c-c718-416a-8d12-3e2854bf4d8c" valueTypeId="b426767a-eb18-4244-9188-6c58e78904b8"/>
+    <managerType typeId="744700b9-81ee-44d5-bbe1-49aafb6768bb" valueTypeId="71562c5f-f7a9-4f9a-85cb-1b82243bf22c"/>
+  </producedTypes>
+  <name>РазделыУведомленийОПроблемах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы уведомлений о проблемах</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="73bf38fc-d7d9-4bdf-905c-a3eb781e5322">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6120d49-7288-4ed3-8f0a-39bfc4f2f5c7">
+    <name>ОбменСМобильными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен с мобильными</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdf56509-b397-414c-8ba0-64f98b8224ed">
+    <name>Администрирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администрирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b06dfb52-890e-49b9-b6aa-d324385c2c91">
+    <name>ПриемПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием по ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70756053-806d-40c3-9b93-1421ef2cf6b4">
+    <name>ОтправкаПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправка по ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="729832ef-792c-4884-a134-92c6002d819b">
+    <name>Распознавание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распознавание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

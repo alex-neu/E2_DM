@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce506594-5d6d-45c9-b1fe-c55df4bf5636">
+  <producedTypes>
+    <objectType typeId="93b4ca06-355f-4b39-8584-0dae9ab61993" valueTypeId="bd401bda-e412-4ca6-8cbd-5f148f40800f"/>
+    <managerType typeId="f73c3e5b-9b2c-41e6-8d77-89cc59c8f999" valueTypeId="741f12ba-f70d-4aba-9127-9ea6f9d804e3"/>
+  </producedTypes>
+  <name>ПротоколРаботыСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Протокол работы сотрудников</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПротоколРаботыСотрудников.Form.Форма</defaultForm>
+  <forms uuid="0a7775a3-0050-4391-a22d-2090bd073cba">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="29c3989c-01d3-4255-9674-97b482842c25">
+    <name>ПротоколРаботыСотрудников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол работы сотрудников</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

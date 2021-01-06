@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea513592-3962-4d08-a505-44c9b7eb65d9">
+  <name>ДиспетчерЗаданийВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диспетчер заданий в модели сервиса</value>
+  </synonym>
+  <methodName>CommonModule.РаботаВМоделиСервисаПереопределяемый.ДиспетчерЗаданийВМоделиСервиса</methodName>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

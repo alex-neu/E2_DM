@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de7fe4f9-b435-4eea-a325-7c4065191339">
+  <name>УчетСамочувствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет самочувствия сотрудников</value>
+  </synonym>
+  <location>Constant.УчетСамочувствияСотрудников</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.СамочувствиеСотрудника</content>
+  <content>Catalog.ГрафикУчетаСамочувствияСотрудников</content>
+  <content>InformationRegister.СотрудникиДляКонтроляСамочувствия</content>
+  <content>CommonCommand.МоеСамочувствие</content>
+  <content>Report.КонтрольСамочувствияСотрудников</content>
+</mdclass:FunctionalOption>

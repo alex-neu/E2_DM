@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="500461dc-74c6-49da-ba07-e37a3d12d3ad">
+  <producedTypes>
+    <refType typeId="76cef8ee-45e1-4f07-beb3-99bdb166b281" valueTypeId="dba18ec4-e2af-4829-a5e9-35ceeb9a5b0c"/>
+    <listType typeId="ac1a75e3-6df9-4bd4-8182-7b63e62370cc" valueTypeId="5277ac9a-ef29-40ed-aee3-0e9019a95b79"/>
+    <managerType typeId="4ed7c837-7795-4336-a93d-9a5ddaf46072" valueTypeId="23df5ab0-75bf-44be-8791-c7c3dfa346ee"/>
+  </producedTypes>
+  <name>УдалитьВидыСобытийСозданияДокументовДОПоВходящимЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды событий создания документов ДО по входящим ЭД</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11d77ce6-c021-4c6a-a549-f2666b250709">
+    <name>ДобавлениеВОчередьСообщенийЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление в очередь сообщений ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="229fdd6e-d67a-480e-9f8e-7b566ebf5831">
+    <name>ЗаписьДокументаНаПроверку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запись документа на проверку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad260157-e6fb-4f2f-9db0-792e099d671e">
+    <name>ПолучениеДанныхЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение данных электронного документа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b9e2e743-03e7-4eb5-b1a6-2faaa62a7b3e">
+    <name>РазрывСвязиСДокументомДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрыв связи с документом 1С:Документооборот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="289b04f0-86d3-4bb9-9aa8-f50b9d813ab8">
+    <name>СозданиеДокументаДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание документа 1С:Документооборот</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2311aea2-2413-41dc-868e-fed6ca2e2a27">
+    <name>УдалениеИзОчередиСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаление из очереди сообщений ЭДО</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

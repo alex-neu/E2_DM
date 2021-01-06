@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d05d08d8-e156-4d00-82b2-7e004ce23d23">
+  <producedTypes>
+    <managerType typeId="b8f169be-f2d3-45b4-bc91-257c88a2fbf9" valueTypeId="65d911c5-79b9-44c7-b26a-2ebc4596c461"/>
+    <valueManagerType typeId="96df179e-0b41-446b-861c-53d501c5afb8" valueTypeId="fe55ef2d-3982-4309-b556-cc6e97eccb1d"/>
+    <valueKeyType typeId="2868e8c4-f54b-4b68-8173-c0c6d7c7b54d" valueTypeId="4e976f95-150a-462c-8fbc-faeb3b9fdf96"/>
+  </producedTypes>
+  <name>УведомленияОкномПоказыватьВЦентреОповещений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления окном показывать в центре оповещений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

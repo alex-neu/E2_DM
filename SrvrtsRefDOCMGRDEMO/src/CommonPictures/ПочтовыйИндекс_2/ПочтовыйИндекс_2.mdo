@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef234f6e-00d7-4d80-bbd8-aad42b07934b">
+  <name>ПочтовыйИндекс_2</name>
+  <synonym>
+    <key>ru</key>
+    <value>Почтовый индекс 2</value>
+  </synonym>
+</mdclass:CommonPicture>

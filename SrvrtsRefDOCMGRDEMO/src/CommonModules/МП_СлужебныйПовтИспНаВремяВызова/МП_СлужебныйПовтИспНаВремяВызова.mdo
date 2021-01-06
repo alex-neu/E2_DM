@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c926c975-3cc4-4e3f-9870-2febc2d404e1">
+  <name>МП_СлужебныйПовтИспНаВремяВызова</name>
+  <synonym>
+    <key>ru</key>
+    <value>М п служебный повт исп на время вызова</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringRequest</returnValuesReuse>
+</mdclass:CommonModule>

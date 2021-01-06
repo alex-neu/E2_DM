@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1514eaff-faea-4d82-9465-d0d5292bb31d">
+  <name>УправлениеДоступом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление доступом</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаУправленияДоступом</picture>
+  </picture>
+  <content>Role.ИзменениеУчастниковГруппДоступа</content>
+  <content>Constant.ОграничиватьДоступНаУровнеЗаписей</content>
+  <content>CommonModule.УправлениеДоступомПереопределяемый</content>
+  <content>CommonModule.УправлениеДоступом</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйВызовСервера</content>
+  <content>Catalog.ПрофилиГруппДоступа</content>
+  <content>Catalog.ГруппыДоступа</content>
+  <content>ChartOfCharacteristicTypes.ВидыДоступа</content>
+  <content>CommonModule.УправлениеДоступомСлужебный</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйПовтИсп</content>
+  <content>InformationRegister.ПраваРолей</content>
+  <content>StyleItem.ЗапрещенноеПравоДоступа</content>
+  <content>CommonForm.НастройкиПравОбъектов</content>
+  <content>FunctionalOption.ОграничиватьДоступНаУровнеЗаписей</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйКлиент</content>
+  <content>InformationRegister.НаследованиеНастроекПравОбъектов</content>
+  <content>CommonModule.УправлениеДоступомСлужебныйКлиентСервер</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

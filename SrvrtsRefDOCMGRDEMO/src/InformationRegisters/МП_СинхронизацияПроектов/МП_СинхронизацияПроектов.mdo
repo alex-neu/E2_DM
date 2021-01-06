@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08643e23-b8ab-443b-8a5e-ef95ac5e0b7d">
+  <producedTypes>
+    <selectionType typeId="bc3b3d31-4554-463f-a9c9-3df9d0911a42" valueTypeId="73dacac2-f413-4ca0-ab14-d1590e7d9b28"/>
+    <listType typeId="7d86f089-008e-4645-8533-b0a76143b787" valueTypeId="0565d597-dc85-4fcf-bd66-c31b7260a2b4"/>
+    <managerType typeId="6231274c-02a1-44aa-bea6-1a124dee48aa" valueTypeId="6805a7e4-ee91-4e74-969a-9a8ac412276c"/>
+    <recordSetType typeId="09231a68-1e7b-47a0-9361-cf9069b2efc9" valueTypeId="9b8de807-d8f0-4718-bd2d-06a11e1dccf3"/>
+    <recordKeyType typeId="9d91bcd1-357d-428d-a5d7-2c61ebb0cc27" valueTypeId="0088ed4c-f33e-4165-8a83-406a3f04de2b"/>
+    <recordType typeId="837ef983-15f9-436f-8915-35b21add23e6" valueTypeId="537ef786-6fe9-4ae2-822c-9087151cffc2"/>
+    <recordManagerType typeId="2eb2995d-7946-4482-b488-1c2abf9d28eb" valueTypeId="d2a7abea-5b64-48d6-a708-fa7a9b098175"/>
+  </producedTypes>
+  <name>МП_СинхронизацияПроектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация проектов пользователей мобильного приложения</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0e49542f-5e63-47b7-a718-65c008bbf66f">
+    <name>ОтметкаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка времени</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтметкаВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="8a5f701b-6b44-49ee-a881-bf078af0d473">
+    <name>Удален</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удален</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="d229fb27-a6b8-4ca2-9801-f8ac7bb2cb85">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b7f70dd1-9c31-4370-88c7-29a79e56c077">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

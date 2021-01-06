@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="879cc615-7341-4184-be0d-6d60eb8eb273">
+  <name>СамочувствиеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Самочувствие сотрудников</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.СамочувствиеСотрудника</content>
+  <content>InformationRegister.СотрудникиДляКонтроляСамочувствия</content>
+  <content>Catalog.ГрафикУчетаСамочувствияСотрудников</content>
+  <content>Report.КонтрольСамочувствияСотрудников</content>
+  <parentSubsystem>Subsystem.СовместнаяРабота</parentSubsystem>
+</mdclass:Subsystem>

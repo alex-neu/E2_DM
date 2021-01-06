@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="48867ede-e0ee-4173-aaa1-46bcc43ce858">
+  <producedTypes>
+    <selectionType typeId="771c75d5-1d55-48b9-8df9-c738b475443c" valueTypeId="d7432b33-1bf7-43cf-b602-f3edc725d456"/>
+    <listType typeId="e4a268e0-84fd-4bde-92b2-7a6cdcb1e1a0" valueTypeId="9515c72e-9ad6-446d-be70-3fd8177bf439"/>
+    <managerType typeId="ae1791cc-f621-49b5-be1d-f164aef764ff" valueTypeId="6b9164a4-506c-4183-be06-b4d70bb0362d"/>
+    <recordSetType typeId="0e8cef43-5d5d-43be-a02d-de48691f0470" valueTypeId="bb8c583c-7818-45e8-ad38-9f8c0cd926dc"/>
+    <recordKeyType typeId="b00ed0d3-29e3-4c58-82ec-8cc5dbedb6e2" valueTypeId="183bd7d7-c32d-403c-9e35-7fafef68517a"/>
+    <recordType typeId="d0e3bdad-a840-4f35-9065-49cc0d8afe71" valueTypeId="d736a1f5-8a75-4212-947e-e8e05389b9f4"/>
+    <recordManagerType typeId="2b331f97-20f1-42e9-b988-b887a59762f3" valueTypeId="40fca4b8-f4c5-40fd-a337-a76449defece"/>
+  </producedTypes>
+  <name>СотрудникиДляКонтроляСамочувствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сотрудники для контроля самочувствия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="d79e47ae-f2d9-431b-91a2-01922826c72d">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a115b645-07c0-44f0-8378-e517a8a28f35">
+  <name>СинхронизацияGoogle</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация google</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияGoogle</content>
+  <content>InformationRegister.НастройкиСинхронизацииGoogle</content>
+  <content>CommonPicture.GoogleLogo</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

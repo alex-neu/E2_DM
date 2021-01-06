@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d846d29a-fc37-4e53-822e-10cad78a38ed">
+  <name>ОбменСКонтрагентамиДОСлужебныйКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с контрагентами ДО (служебный клиент сервер)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

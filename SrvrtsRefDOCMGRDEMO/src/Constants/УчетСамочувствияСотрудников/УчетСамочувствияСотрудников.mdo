@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="180e7669-99c0-40ec-aaa6-f998a017e401">
+  <producedTypes>
+    <managerType typeId="1ce0e3fc-fd5d-434b-99f2-954b3ae953a2" valueTypeId="9cad2722-9003-46ba-87d2-7a0bdad4df34"/>
+    <valueManagerType typeId="3950eb3d-a9d5-4e60-80cf-e4dc9c123e39" valueTypeId="e01c3ac9-a8b7-473f-b59a-54d10dcc6cc7"/>
+    <valueKeyType typeId="7814f7f4-592d-456f-8eb3-4cdc0ca96b76" valueTypeId="ccb14953-a502-46c5-8494-da049e3841f4"/>
+  </producedTypes>
+  <name>УчетСамочувствияСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет самочувствия сотрудников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

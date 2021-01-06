@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b68334f-54a9-4e73-aaad-2949100d99b0">
+  <name>РегламентированныйУчетОбращений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентированный учет обращений</value>
+  </synonym>
+  <location>Constant.РегламентированныйУчетОбращений</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonForm.ПомощникВыбораВопроса</content>
+  <content>Constant.ДатаРедакцииКлассификатораОбращенийГраждан</content>
+  <content>Constant.АктуализироватьКлассификаторОбращенийГраждан</content>
+  <content>Catalog.ВопросыОбращений</content>
+  <content>Catalog.РазделыОбращений</content>
+  <content>Catalog.ТематикиОбращений</content>
+  <content>Catalog.ТемыОбращений</content>
+  <content>Enum.РезультатыРассмотренияОбращений</content>
+  <content>Enum.СпособыВыборкиОбращений</content>
+  <content>Enum.СпособыВыгрузкиОбращений</content>
+  <content>Report.РегламентированныйОтчетПоРезультатамРассмотренияОбращений</content>
+  <content>DataProcessor.ВыгрузкаВССТУ</content>
+  <content>DataProcessor.ЗагрузкаКлассификатораОбращенийГраждан</content>
+  <content>Catalog.ВходящиеДокументы.TabularSection.ВопросыОбращения</content>
+  <content>Catalog.Организации.Attribute.ИдентификаторССТУ</content>
+  <content>Catalog.Контрагенты.Attribute.ИдентификаторССТУ</content>
+  <content>Document.ВыгрузкаВССТУ</content>
+  <content>Catalog.Контрагенты.Attribute.ЭтоОрганИсполнительнойВласти</content>
+</mdclass:FunctionalOption>

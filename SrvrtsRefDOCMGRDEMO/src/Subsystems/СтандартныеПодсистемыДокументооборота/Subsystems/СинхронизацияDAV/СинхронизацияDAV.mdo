@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="355f1206-e0f7-4b1e-a04f-d4648fd852c0">
+  <name>СинхронизацияDAV</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация DAV</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияDAV</content>
+  <content>InformationRegister.НастройкиСинхронизацииDAV</content>
+  <content>CommonPicture.iCloudLogo</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота</parentSubsystem>
+</mdclass:Subsystem>

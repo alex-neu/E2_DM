@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d96015d-f9b7-4f20-9283-5b82e800260a">
+  <producedTypes>
+    <containerType typeId="d30d6255-0b14-4cbf-8f58-9a6310c317f9" valueTypeId="5d8a77d2-3573-4ea8-9d9d-683ef9aea45d"/>
+  </producedTypes>
+  <name>ВладелецПрисоединенныхФайловДокументОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Владелец присоединенных файлов документ объект</value>
+  </synonym>
+  <type>
+    <types>DocumentObject.УдалитьПроизвольныйЭД</types>
+    <types>DocumentObject.ЭлектронныйДокументИсходящий</types>
+    <types>DocumentObject.ЭлектронныйДокументВходящий</types>
+    <types>DocumentObject.ПакетЭД</types>
+    <types>DocumentObject.СправкиСПАРКРиски</types>
+  </type>
+</mdclass:DefinedType>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41ae5b38-936d-47aa-89f3-4ace6e7d758a">
+  <producedTypes>
+    <selectionType typeId="7f634ad6-0478-4cf0-ba89-8d6972465c7b" valueTypeId="727b842a-8840-40da-b8b7-f4c3fe43ce59"/>
+    <listType typeId="2f4f0f1a-4ad7-4060-9c56-3119fc119aac" valueTypeId="0559b0ed-0638-4914-9856-77c30de9da55"/>
+    <managerType typeId="d002892b-1ccc-4d93-aa1b-17c14b3497e4" valueTypeId="029e6f86-53ae-45ea-a330-b774c5656778"/>
+    <recordSetType typeId="c3c0050a-4d89-4abf-a887-87d2eb210492" valueTypeId="c8aadc98-df5c-492c-969f-369f3c14e2f8"/>
+    <recordKeyType typeId="10c40726-63bf-4956-a6ba-dd8d286fa8d2" valueTypeId="a97976bb-91d0-449a-9284-7905500de54c"/>
+    <recordType typeId="9aaca3f4-bc99-422d-99d8-c736da80031d" valueTypeId="9ecdd092-ae54-449f-ae6d-c73c2ac94951"/>
+    <recordManagerType typeId="8c24e2be-91b6-4f07-86b8-b1cc0f9c38d0" valueTypeId="2b9c7d06-00cd-45d3-a86d-0dfe86e1fe66"/>
+  </producedTypes>
+  <name>ЧасовыеПоясаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Часовые пояса пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="439348a4-6a62-4d43-9be9-b49038e2d9aa">
+    <name>ЧасовойПояс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часовой пояс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>9</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="c4ae7024-e54e-4bae-88f3-80a6d95bae45">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

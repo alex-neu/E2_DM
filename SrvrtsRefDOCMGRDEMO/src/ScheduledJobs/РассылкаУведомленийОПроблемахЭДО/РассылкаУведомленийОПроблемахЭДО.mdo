@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8544cce2-024b-4b24-a8ee-d815f4ee83c4">
+  <name>РассылкаУведомленийОПроблемахЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка уведомлений о проблемах ЭДО</value>
+  </synonym>
+  <methodName>CommonModule.ОбменСКонтрагентамиДОСервер.ОтправитьУведомленияОПроблемахЭДО</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

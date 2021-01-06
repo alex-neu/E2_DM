@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a413c04a-96cd-4ca0-bc8e-b6bc836a901a">
+  <producedTypes>
+    <selectionType typeId="e1cad594-b433-4162-a3e7-633923a8f437" valueTypeId="7d7e0f1f-6012-4a37-b933-a5e1155121ab"/>
+    <listType typeId="a777c800-0e21-4b35-9e2b-d33bd607e624" valueTypeId="abbd378a-af31-4d48-9fca-a0b949b235ff"/>
+    <managerType typeId="ccb4c6b9-89d1-4a28-adb0-08c05f31175e" valueTypeId="b3b9cc2a-8aa7-42de-b24a-0ba09b869558"/>
+    <recordSetType typeId="feea4d52-40c7-4de7-9f6f-c34ab6cb40ad" valueTypeId="97119e64-b8c5-4533-bd9f-3c1058fe8bc9"/>
+    <recordKeyType typeId="5cc51c3b-778d-4267-88bf-70f6f3848945" valueTypeId="1ee0ec39-b42a-42a1-a425-166de5329d99"/>
+    <recordType typeId="0bdf688d-e747-4c31-94b7-d885d6cdd4a4" valueTypeId="d46135b0-027f-4ae5-988e-8ab5fbf4a9c0"/>
+    <recordManagerType typeId="8b658718-a0f5-4a06-bac3-cfe89d65d06b" valueTypeId="d9916399-ba23-43f1-a055-0f9d301ca5e4"/>
+  </producedTypes>
+  <name>ОчередьПриемаСообщенийЭДО</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь приема сообщений ЭДО</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="55118b40-11a6-4053-8d73-cf72e4fdc12d">
+    <name>КоличествоПопытокОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество попыток обработки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e893a5d5-6bb8-42fe-a531-7b331985bdc0">
+    <name>ЭДПрисоединенныйФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭДПрисоединенный файл</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЭДПрисоединенныеФайлы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

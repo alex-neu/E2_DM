@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9686e6a-c428-4dd1-be51-1277486adc4c">
+  <name>СинхронизацияКалендарей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация календарей</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.СинхронизацияКалендарей</content>
+  <content>CommonModule.СинхронизацияКалендарейСобытия</content>
+  <content>Role.ИспользованиеСинхронизацииКалендарей</content>
+  <content>ExchangePlan.СинхронизацияКалендарей</content>
+  <content>EventSubscription.СинхронизацияКалендарейПередЗаписью</content>
+  <content>ScheduledJob.СинхронизацияКалендарей</content>
+  <content>FunctionalOption.ИспользоватьСинхронизациюКалендарей</content>
+  <content>CommonForm.НастройкаСинхронизацииКалендарей</content>
+  <content>CommonCommand.НастройкаСинхронизацииКалендарей</content>
+  <content>CommonPicture.ДлительнаяОперация24</content>
+  <content>CommonPicture.ЗеленаяГалка</content>
+  <content>Constant.ИспользоватьСинхронизациюКалендарей</content>
+  <content>Enum.ТипыСинхронизацииКалендарей</content>
+  <content>InformationRegister.ЗаписиСинхронизацииКалендарей</content>
+  <content>CommonPicture.КрасныйКрест</content>
+  <content>Constant.ИдентификаторПриложенияGoogleClientID</content>
+  <content>Constant.ИдентификаторПриложенияGoogleClientSecret</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота.Subsystem.РабочийКалендарь</parentSubsystem>
+</mdclass:Subsystem>

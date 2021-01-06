@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="56dd51a9-aad5-4cb0-89c5-10c61f37ceb2" extendedConfigurationObject="a43f9ed5-2e5d-4823-919e-e0bfea3bd8b3">
+  <producedTypes>
+    <refType typeId="d31a75ab-b594-46bd-8e12-0cc493ae060e" valueTypeId="feb65f3a-8b99-4877-b29d-9219158daa29"/>
+    <listType typeId="59c06d03-b01b-4d08-acda-47cbf9f22269" valueTypeId="1cf442ed-4fc6-4af4-a83c-9b85ac4740a8"/>
+    <managerType typeId="5324b9b9-8212-4e64-9f47-5c1a7d62a788" valueTypeId="4aa6b291-a051-42af-85fc-8ed97ad90815"/>
+  </producedTypes>
+  <name>ТипыАдресатов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="b74ee8c0-5263-433c-851f-584c9bd3cb8a" extendedConfigurationObject="5e8805fb-1280-4a83-8958-d927e1d693df">
+    <name>Кому</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="df8d3641-0895-4b9b-9dc4-e9db6359ade1" extendedConfigurationObject="0a7b6312-459c-4fe0-bdb9-51d042069808">
+    <name>СкрытаяКопия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f77ebc22-f86d-4f7d-a683-036b7f1214c4" extendedConfigurationObject="e9f5be3d-3d5b-45f0-9e4b-e4d15282ed7e">
+    <name>Копия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

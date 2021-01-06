@@ -1,0 +1,3 @@
+<Items Description="Языки распознавания" Columns="Language,Name">
+	<Item Language="7" Name="Русский; Английский"/>
+</Items>

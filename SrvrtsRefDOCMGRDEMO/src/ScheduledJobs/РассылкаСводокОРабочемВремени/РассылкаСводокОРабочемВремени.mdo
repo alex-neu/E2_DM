@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb651917-3b80-48e3-a004-728c192025e6">
+  <name>РассылкаСводокОРабочемВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка сводок о рабочем времени</value>
+  </synonym>
+  <methodName>CommonModule.УчетВремени.РассылкаСводокОРабочемВремени</methodName>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

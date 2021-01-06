@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="158b261e-6db6-4cbc-afe3-89eed1aa5615">
+  <name>ВставкаИзображенияЭПСУказаниемПоложенияDocx</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставка изображения ЭПСУказанием положения docx</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

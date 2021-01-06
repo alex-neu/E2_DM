@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7622766b-052e-4459-b17e-2aaa112b52b1">
+  <name>ВставкаИзображенияВместоТегаВDocx</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вставка изображения вместо тега в docx</value>
+  </synonym>
+  <comment>макет xml-части для вставки штрихкода в файл docx вместо тэга</comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

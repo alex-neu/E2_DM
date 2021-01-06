@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1ccc6de-c3fd-4729-96e2-18d21e1dab3f">
+  <producedTypes>
+    <managerType typeId="35d7e49a-1d4c-41f4-a5e5-e5f982c9f24b" valueTypeId="187fe867-0473-4905-93b6-3c5ce6b5f17b"/>
+    <valueManagerType typeId="f5368884-68e7-4089-b563-63cdc9199f46" valueTypeId="b1d151e6-cac6-4165-a562-02333ecb178b"/>
+    <valueKeyType typeId="d65844d2-0d3e-4c33-ab78-a8104a93366e" valueTypeId="8e2657f6-303f-4a7f-92ff-02db4e742803"/>
+  </producedTypes>
+  <name>ПолитикаУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Политика учета рабочего времени</value>
+  </synonym>
+  <type>
+    <types>EnumRef.ПолитикиУчетаРабочегоВремени</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

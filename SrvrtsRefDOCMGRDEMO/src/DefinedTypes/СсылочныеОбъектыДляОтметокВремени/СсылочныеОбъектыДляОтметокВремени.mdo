@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dce0c2de-ac2e-47ea-a1b2-398a3582fe4b">
+  <producedTypes>
+    <containerType typeId="d85e8894-4a5f-4da7-ba4b-faf91d455bb1" valueTypeId="0ba98663-9606-4540-b340-69211a430c1a"/>
+  </producedTypes>
+  <name>СсылочныеОбъектыДляОтметокВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ссылочные объекты для отметок времени</value>
+  </synonym>
+  <type>
+    <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.ГрафикУчетаСамочувствияСотрудников</types>
+    <types>CatalogObject.РолиИсполнителей</types>
+    <types>CatalogObject.Проекты</types>
+    <types>CatalogObject.ШаблоныТекстов</types>
+    <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
+    <types>DocumentObject.ЕженедельныйОтчет</types>
+    <types>CatalogObject.Контроль</types>
+    <types>CatalogObject.Мероприятия</types>
+    <types>CatalogObject.ВидыОтсутствий</types>
+    <types>CatalogObject.ЛичныеАдресаты</types>
+    <types>DocumentObject.ВходящееПисьмо</types>
+    <types>CatalogObject.ВидыРабот</types>
+    <types>CatalogObject.АдресатыПочтовыхСообщений</types>
+    <types>DocumentObject.ЕжедневныйОтчет</types>
+    <types>CatalogObject.ПапкиПисем</types>
+    <types>DocumentObject.ИсходящееПисьмо</types>
+    <types>CatalogObject.КонтактныеЛица</types>
+    <types>DocumentObject.Отсутствие</types>
+    <types>CatalogObject.Файлы</types>
+    <types>BusinessProcessObject.Исполнение</types>
+    <types>CatalogObject.ЗаписиРабочегоКалендаря</types>
+    <types>DocumentObject.СамочувствиеСотрудника</types>
+    <types>TaskObject.ЗадачаИсполнителя</types>
+  </type>
+</mdclass:DefinedType>

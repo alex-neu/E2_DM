@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7bef737-d9db-4997-8002-1775c6731cc1">
+  <name>ИспользоватьДокументыУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать документы учета рабочего времени</value>
+  </synonym>
+  <location>Constant.ИспользоватьДокументыУчетаРабочегоВремени</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>DocumentJournal.УчетРабочегоВремени</content>
+  <content>DocumentJournal.УчетРабочегоВремени.Command.ОткрытьЖурналСвоихОтчетов</content>
+  <content>DocumentJournal.УчетРабочегоВремени.Command.ОткрытьЖурналОтчетовПодчиненных</content>
+  <content>AccumulationRegister.РабочееВремяПользователей</content>
+  <content>Report.ЗатратыВремени</content>
+  <content>Subsystem.УчетВремени</content>
+  <content>Enum.СпособыУказанияВремени</content>
+  <content>Enum.ВидыДней</content>
+  <content>Catalog.ВидыРабот</content>
+</mdclass:FunctionalOption>

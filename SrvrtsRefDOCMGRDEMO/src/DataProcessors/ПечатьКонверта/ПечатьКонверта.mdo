@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2af7a4a6-a26b-4fd1-8332-0d009903d60e">
+  <producedTypes>
+    <objectType typeId="941c2dc0-2f94-4f78-a9a3-5c7b535b7e90" valueTypeId="143ca988-b791-4cea-8d75-a6214377c63a"/>
+    <managerType typeId="b993b794-92e7-4dc8-bcef-4a64ba49754f" valueTypeId="0e26cf7c-78da-4d52-9c3f-3b3e97aea06d"/>
+  </producedTypes>
+  <name>ПечатьКонверта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать конверта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПечатьКонверта.Form.Конверт</defaultForm>
+  <forms uuid="bf5bb3fe-572c-484a-9bf1-6b892ac17430">
+    <name>Конверт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конверт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a465a35f-8981-4d3f-af80-b1db28a9e3bf">
+    <name>ПФ_MXL_КонвертС4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конверт С4</value>
+    </synonym>
+  </templates>
+  <templates uuid="ac887d9e-6bae-4706-979b-ff4c7c18964b">
+    <name>ПФ_MXL_КонвертС5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конверт С5</value>
+    </synonym>
+  </templates>
+  <templates uuid="9757943b-a236-4a58-bfce-67230518f960">
+    <name>ПФ_MXL_КонвертE65</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конверт Е65</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

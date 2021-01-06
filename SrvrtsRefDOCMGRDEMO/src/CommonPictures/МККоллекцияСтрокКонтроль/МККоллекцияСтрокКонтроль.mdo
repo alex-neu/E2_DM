@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85c5b0dd-192a-4678-be06-dfba581ec054">
+  <name>МККоллекцияСтрокКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>МККоллекция строк контроль</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a155fe92-2639-41ed-8cf2-5600d23a30ba">
+  <name>ОтметкиВремениИзмененияЦветаИФлага</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметки времени изменения цвета и флага</value>
+  </synonym>
+  <source>
+    <types>InformationRegisterRecordSet.НастройкиОтображенияЗаписейРабочегоКалендаря</types>
+    <types>InformationRegisterRecordSet.ФлагиОбъектов</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОтметкиВремениСобытия.ОтметкиВремениИзмененияЦветаИФлага</handler>
+</mdclass:EventSubscription>

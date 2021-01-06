@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:WebService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da6030f4-0d4b-4d84-b8e3-cadc7f43b8b4">
+  <name>Расш1_WebСервис1</name>
+  <namespace>vozvrat</namespace>
+  <descriptorFileName>ws1.1cws</descriptorFileName>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <operations uuid="b48f183a-e8f0-472f-9a44-e23ea1e2fdf1">
+    <name>Операция1</name>
+    <xdtoReturningValueType>
+      <name>string</name>
+      <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>Операция1</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+  </operations>
+</mdclass:WebService>

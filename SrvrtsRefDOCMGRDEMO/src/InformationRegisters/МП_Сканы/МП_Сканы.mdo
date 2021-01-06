@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="83f2b343-6327-4911-8d16-e5c5a5f515bc">
+  <producedTypes>
+    <selectionType typeId="42c85e17-dd0a-46f2-aa8b-0a0370d421ee" valueTypeId="e97ccdc4-9bf1-4305-a7e3-11291e34621a"/>
+    <listType typeId="0013bc2c-d9bc-47be-bd74-082ccd76f33a" valueTypeId="199c3ad5-fdd4-49a9-a131-cb302eda3d20"/>
+    <managerType typeId="5c754971-f2e3-4c22-baea-4e3a92e9b1fc" valueTypeId="22f576ef-793b-4f62-8d52-b7c99f184640"/>
+    <recordSetType typeId="b2f1a6d6-e12f-42c2-a4ca-d7a61c26e81c" valueTypeId="d846944b-2e3e-4219-9bf6-7525d1815278"/>
+    <recordKeyType typeId="de4ffec9-2057-48e0-bbc8-9792a77f8e59" valueTypeId="0610799c-160d-40cb-a736-bf16414f827e"/>
+    <recordType typeId="5ba29513-e736-416c-be89-a81ecd08d6cc" valueTypeId="179e3bb1-a2e1-419d-b398-e2f6fba09387"/>
+    <recordManagerType typeId="88765eec-40d8-414a-80fe-a8a4b5bfa4a0" valueTypeId="49369ac2-2d73-4405-9f90-628170bf7a09"/>
+  </producedTypes>
+  <name>МП_Сканы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение. Сканы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1e0e6159-3de5-4a24-86af-32e0afedff33">
+    <name>Скан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скан</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ddd60a4f-0bb0-4926-b21e-aebcfa4e698e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

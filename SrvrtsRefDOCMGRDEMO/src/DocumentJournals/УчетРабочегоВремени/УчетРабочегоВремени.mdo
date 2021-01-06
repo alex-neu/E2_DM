@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f54378ca-0d80-422d-b3e2-67676ed76bcd">
+  <producedTypes>
+    <selectionType typeId="02b12d6a-6e57-4e70-b5d7-e868333e45b7" valueTypeId="401d83f7-9829-4952-a927-5ca1c928ad37"/>
+    <listType typeId="42d1720c-185c-49ee-844c-c88210cb3aca" valueTypeId="ddf68d99-3c98-4991-bd43-ec59259f8426"/>
+    <managerType typeId="dec53476-45f4-4107-8db7-774dc4ad5d5f" valueTypeId="ba77854e-6311-45d8-955d-f86870e220c2"/>
+  </producedTypes>
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <registeredDocuments>Document.ЕжедневныйОтчет</registeredDocuments>
+  <registeredDocuments>Document.ЕженедельныйОтчет</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="358a56a6-9307-4988-8148-a03ee0cd1b1b">
+    <name>ДлительностьРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность (общая)</value>
+    </synonym>
+    <references>Document.ЕжедневныйОтчет.Attribute.ДлительностьРабот</references>
+    <references>Document.ЕженедельныйОтчет.Attribute.ДлительностьРабот</references>
+  </columns>
+  <columns uuid="c0cdbb4a-9bb2-4850-b759-b9221fda9e4d">
+    <name>ДлительностьРабочая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность (рабочая)</value>
+    </synonym>
+    <references>Document.ЕжедневныйОтчет.Attribute.ДлительностьРабочая</references>
+    <references>Document.ЕженедельныйОтчет.Attribute.ДлительностьРабочая</references>
+  </columns>
+  <columns uuid="07ccf8d6-310b-4f6a-ad21-28cbd7f38bbc">
+    <name>НекорректнаяДлительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Некорректная длительность</value>
+    </synonym>
+    <references>Document.ЕжедневныйОтчет.Attribute.НекорректнаяДлительность</references>
+  </columns>
+  <columns uuid="60425266-922f-4728-a1fd-00ba0dcc6748">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ЕжедневныйОтчет.Attribute.Подразделение</references>
+    <references>Document.ЕженедельныйОтчет.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="eb1bf385-5367-40c0-accd-6b139cdf8a5a">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ЕженедельныйОтчет.Attribute.Пользователь</references>
+    <references>Document.ЕжедневныйОтчет.Attribute.Пользователь</references>
+  </columns>
+  <forms uuid="831f80a4-ee33-458d-affa-96b565f764ca">
+    <name>ЖурналСвоихОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои отчеты</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43c6cf1c-1c1a-4e32-8202-ccb94aba618a">
+    <name>ЖурналОтчетовПодчиненных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты подчиненных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8fb54bb8-8cd0-4540-9a63-4c6c5d874372">
+    <name>ОткрытьЖурналСвоихОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мои отчеты</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+  <commands uuid="f01153c3-c8e5-44ff-9484-851ac08cabd3">
+    <name>ОткрытьЖурналОтчетовПодчиненных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты подчиненных</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DocumentJournal>

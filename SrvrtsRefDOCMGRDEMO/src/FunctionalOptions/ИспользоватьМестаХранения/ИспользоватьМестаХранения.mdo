@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25bfdde2-2d24-4fe9-9683-c70c20aaf06d">
+  <name>ИспользоватьМестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать места хранения</value>
+  </synonym>
+  <location>Constant.ИспользоватьМестаХранения</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыВнутреннихДокументов.Attribute.УчитыватьМестоХранения</content>
+  <content>Catalog.ВидыВнутреннихДокументов.Attribute.УчитыватьОтветственногоЗаХранение</content>
+  <content>Catalog.ВидыВходящихДокументов.Attribute.УчитыватьМестоХранения</content>
+  <content>Catalog.ВидыВходящихДокументов.Attribute.УчитыватьОтветственногоЗаХранение</content>
+  <content>Catalog.ВнутренниеДокументы.Attribute.ОтветственныйЗаХранение</content>
+  <content>Catalog.ВнутренниеДокументы.Attribute.МестоХранения</content>
+  <content>Catalog.ВходящиеДокументы.Attribute.МестоХранения</content>
+  <content>Catalog.ВходящиеДокументы.Attribute.ОтветственныйЗаХранение</content>
+  <content>Enum.ВариантыИспользованияПолейХранения</content>
+  <content>Catalog.ШаблоныВнутреннихДокументов.Attribute.ОтветственныйЗаХранение</content>
+  <content>Catalog.ШаблоныВнутреннихДокументов.Attribute.МестоХранения</content>
+  <content>Catalog.ШаблоныВходящихДокументов.Attribute.МестоХранения</content>
+  <content>Catalog.ШаблоныВходящихДокументов.Attribute.ОтветственныйЗаХранение</content>
+  <content>Catalog.ШаблоныИсходящихДокументов.Attribute.МестоХранения</content>
+  <content>Catalog.ШаблоныИсходящихДокументов.Attribute.ОтветственныйЗаХранение</content>
+  <content>Catalog.ВидыИсходящихДокументов.Attribute.УчитыватьМестоХранения</content>
+  <content>Catalog.ВидыИсходящихДокументов.Attribute.УчитыватьОтветственногоЗаХранение</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.МестоХранения</content>
+  <content>Catalog.ИсходящиеДокументы.Attribute.ОтветственныйЗаХранение</content>
+</mdclass:FunctionalOption>

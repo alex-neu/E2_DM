@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ec2d9d3-4c24-43f5-973f-94e479624c74">
+  <producedTypes>
+    <managerType typeId="bd8a8da7-8b6d-4500-830a-d79ed4de6e21" valueTypeId="5a5e0b93-2e43-4ced-a7a3-d9bee8ee54f3"/>
+    <valueManagerType typeId="3355f67f-79d2-4d7f-8089-ac0d61a1f097" valueTypeId="f186f323-e204-4f49-954b-306f7d34f42f"/>
+    <valueKeyType typeId="c40d4f8f-8de8-4c42-b47f-d393d81a44d6" valueTypeId="1ecba0ed-4183-40c3-b959-49363d61eb9c"/>
+  </producedTypes>
+  <name>ИспользоватьЧатБота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать чат-бот</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Станут доступны все объекты связанные с чат-ботом</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

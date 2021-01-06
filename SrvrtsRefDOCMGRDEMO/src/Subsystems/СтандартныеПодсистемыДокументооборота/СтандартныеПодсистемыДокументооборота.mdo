@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ddfa9343-5ffd-4020-b834-1ffed1d031b3">
+  <name>СтандартныеПодсистемыДокументооборота</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы документооборота</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ПапкиПоиска</content>
+  <content>Catalog.ШаблоныТекстов</content>
+  <content>Constant.СостояниеОбновленияПравДоступаПослеОбновления</content>
+  <content>DataProcessor.РасчетПравДоступаПослеОбновления</content>
+  <subsystems>БизнесПроцессыИЗадачи</subsystems>
+  <subsystems>БизнесСобытия</subsystems>
+  <subsystems>БронированиеПомещений</subsystems>
+  <subsystems>ВстроеннаяПочта</subsystems>
+  <subsystems>ИнформационнаяПоддержка</subsystems>
+  <subsystems>ИнтеграцияСМобильнымКлиентом</subsystems>
+  <subsystems>КомплектыДокументов</subsystems>
+  <subsystems>ЛегкаяПочта</subsystems>
+  <subsystems>Контроль</subsystems>
+  <subsystems>ПомощникОтправить</subsystems>
+  <subsystems>Мероприятия</subsystems>
+  <subsystems>Напоминания</subsystems>
+  <subsystems>ОбменСКонтрагентамиПоЭДО</subsystems>
+  <subsystems>Отсутствия</subsystems>
+  <subsystems>Планировщик</subsystems>
+  <subsystems>Почта</subsystems>
+  <subsystems>РабочиеГруппы</subsystems>
+  <subsystems>Проекты</subsystems>
+  <subsystems>ДокументооборотПраваДоступа</subsystems>
+  <subsystems>РабочийКалендарь</subsystems>
+  <subsystems>СВД</subsystems>
+  <subsystems>СинхронизацияDAV</subsystems>
+  <subsystems>СинхронизацияGoogle</subsystems>
+  <subsystems>СписокПоследних</subsystems>
+  <subsystems>Уведомления</subsystems>
+  <subsystems>УправлениеПоКонтрольнымТочкам</subsystems>
+  <subsystems>ФлагиОбъектов</subsystems>
+  <subsystems>Форум</subsystems>
+  <subsystems>ЧасовыеПояса</subsystems>
+  <subsystems>ЧатБот</subsystems>
+  <subsystems>Штрихкоды</subsystems>
+  <subsystems>ЭлектронныеПодписи</subsystems>
+  <subsystems>СамочувствиеСотрудников</subsystems>
+</mdclass:Subsystem>

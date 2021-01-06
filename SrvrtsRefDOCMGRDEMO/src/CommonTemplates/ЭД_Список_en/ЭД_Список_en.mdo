@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6df57d24-31f5-4280-bde3-f36daab53703">
+  <name>ЭД_Список_en</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЭД список</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>ED list</value>
+  </synonym>
+</mdclass:CommonTemplate>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9150ea4-ba40-4a0c-8adb-ee2e4a06e3c1">
+  <producedTypes>
+    <selectionType typeId="3ced79e8-3bf1-4f37-87ad-ddb2182889c8" valueTypeId="ea0ba3fd-817b-4ff0-ab37-2cd9bd7a0a83"/>
+    <listType typeId="62f5d0f1-318e-42ca-bfdd-2e3cdb534ab8" valueTypeId="6e0c0bdb-c078-4638-9b2f-ee6baaca3692"/>
+    <managerType typeId="32038f4d-dd2c-44f6-a57f-f209ef36259b" valueTypeId="dada6e06-ed53-4743-9b70-534fb50c11f6"/>
+    <recordSetType typeId="f385fdbd-53fd-492c-939c-c0780509b05f" valueTypeId="b3776cf5-a3f9-468e-80df-04f771cfca63"/>
+    <recordKeyType typeId="0f0b81c9-b352-42fb-9be1-543a398e38c0" valueTypeId="210fe920-47f1-4d20-809d-c8fe52149ad9"/>
+    <recordType typeId="836829b6-e1bd-4018-a82f-e543cc5ad672" valueTypeId="458829af-6bfa-4849-99c4-26a50bc14d00"/>
+    <recordManagerType typeId="afcc8fc5-9954-4ea1-b153-95736ef350e3" valueTypeId="b1a04766-0467-465a-80c9-8eb1048023dc"/>
+  </producedTypes>
+  <name>МП_ОтправленныеСсылочныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мобильное приложение. Отправленные ссылочные данные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c81d1996-83f5-4a00-bb2e-26fc72963bdd">
+    <name>ОтметкаВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отметка времени</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ОтметкаВремени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="55617415-1b63-48fe-bde7-4eee0b23c47c">
+    <name>Ссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.МП_Ссылки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15e5b826-a178-44dc-9f3f-434c910e1557">
+    <name>МобильноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильное приложение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПользователиМобильногоПриложения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

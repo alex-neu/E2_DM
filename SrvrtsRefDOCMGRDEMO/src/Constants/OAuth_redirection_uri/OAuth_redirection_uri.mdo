@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="489821c3-d50a-470c-8205-5d600ec05a2d">
+  <producedTypes>
+    <managerType typeId="293fc32c-decf-49b1-96f9-4036c091e197" valueTypeId="f5f47e83-4c04-47c1-adc0-6d3e7347e189"/>
+    <valueManagerType typeId="97e027a0-5092-4795-aa0a-46ee6620384a" valueTypeId="ae82457e-fa8b-4bf8-b3c8-55b4e8432c0f"/>
+    <valueKeyType typeId="3670802d-2156-4ee9-a3ff-b2e411498738" valueTypeId="78dcb67d-d961-4118-ad18-50c1196ac1d0"/>
+  </producedTypes>
+  <name>OAuth_redirection_uri</name>
+  <synonym>
+    <key>ru</key>
+    <value>OAuth redirection uri</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

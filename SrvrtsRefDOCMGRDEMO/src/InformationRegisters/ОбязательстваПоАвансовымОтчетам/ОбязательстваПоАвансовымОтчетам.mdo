@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9119d982-2610-403c-b295-b4f9e4f7eb31">
+  <producedTypes>
+    <selectionType typeId="be350e9e-b3fc-4b2a-bdbe-311084326e7f" valueTypeId="349bc877-d1cd-40cf-9693-1a109993777d"/>
+    <listType typeId="cf20eb1e-d912-490b-9dc8-bd8f88756768" valueTypeId="9e1fcd09-339c-4fd0-afc4-094048c4e5e6"/>
+    <managerType typeId="d76e106d-12bb-4307-afca-18b8cc858f96" valueTypeId="8f5944c8-b09d-437a-b9a8-1c1467137573"/>
+    <recordSetType typeId="94efcbec-a5a1-4b54-92ed-60dbf8edd414" valueTypeId="f8621449-71a5-49d7-8876-841b76ed6f8f"/>
+    <recordKeyType typeId="4a326698-0a22-4031-918e-9fa658d790ea" valueTypeId="df9558f6-8a6a-4516-9735-26716a7b19a1"/>
+    <recordType typeId="1662e5c9-8b11-4903-af1f-5fc8b0ee4e55" valueTypeId="8a689429-7bc8-441e-b983-37b06149cdfe"/>
+    <recordManagerType typeId="38329dbd-3d19-422a-8b4d-d7525b133e47" valueTypeId="75d0d54b-ad73-4f79-8616-c3f670d38271"/>
+  </producedTypes>
+  <name>ОбязательстваПоАвансовымОтчетам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обязательства по авансовым отчетам</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="00d2c386-98a9-48e8-989e-0da63f4ea1cf">
+    <name>СрокПредоставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок предоставления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0e765872-341b-42e9-a70b-6c11eec27dbf">
+    <name>Предоставлен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставлен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="907aede3-0a97-464f-ac5f-43fe1160058f">
+    <name>Требуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="80b88321-07cc-4530-a6e6-a5bd8d47079c">
+    <name>ЗаявкаНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка на оплату</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВнутренниеДокументы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
