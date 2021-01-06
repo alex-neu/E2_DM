@@ -2540,6 +2540,7 @@
   <commonModules>CommonModule.МП_МобильныйСканерВызовСервера</commonModules>
   <commonModules>CommonModule.МП_МобильныйСканерКлиент</commonModules>
   <commonModules>CommonModule.ОбщийМодульAlterDevMaster</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль2СвояВетка</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
